@@ -1,0 +1,474 @@
+bountyId,submissionId,excludedSelfAwarded,taskType,threshold,score,model,family,failedGate,gateId,gateType,reason
+69,0,0,writing,85,74,gpt-5.6-terra,openai,0,,,
+69,0,0,writing,85,74,claude-sonnet-5,anthropic,0,,,
+69,1,0,writing,85,60,gpt-5.6-terra,openai,0,,,
+69,1,0,writing,85,60,claude-sonnet-5,anthropic,0,,,
+69,2,0,writing,85,57,gpt-5.6-terra,openai,0,,,
+69,2,0,writing,85,57,claude-sonnet-5,anthropic,0,,,
+69,3,0,writing,85,76,gpt-5.6-terra,openai,0,,,
+69,3,0,writing,85,76,claude-sonnet-5,anthropic,0,,,
+69,4,0,writing,85,76,gpt-5.6-terra,openai,0,,,
+69,4,0,writing,85,76,claude-sonnet-5,anthropic,0,,,
+69,5,0,writing,85,67,gpt-5.6-terra,openai,0,,,
+69,5,0,writing,85,67,claude-sonnet-5,anthropic,0,,,
+69,6,0,writing,85,84,gpt-5.6-terra,openai,0,,,
+69,6,0,writing,85,84,claude-sonnet-5,anthropic,0,,,
+69,7,0,writing,85,77,gpt-5.6-terra,openai,0,,,
+69,7,0,writing,85,77,claude-sonnet-5,anthropic,0,,,
+69,8,0,writing,85,81,gpt-5.6-terra,openai,0,,,
+69,8,0,writing,85,81,claude-sonnet-5,anthropic,0,,,
+69,9,0,writing,85,80,gpt-5.6-terra,openai,0,,,
+69,9,0,writing,85,80,claude-sonnet-5,anthropic,0,,,
+69,10,0,writing,85,75,gpt-5.6-terra,openai,0,,,
+69,10,0,writing,85,75,claude-sonnet-5,anthropic,0,,,
+70,0,0,b4b,95,50,gpt-5.2-2025-12-11,openai,0,,,
+70,0,0,b4b,95,50,claude-sonnet-4-6,anthropic,0,,,
+70,1,0,b4b,95,47,gpt-5.2-2025-12-11,openai,0,,,
+70,1,0,b4b,95,47,claude-sonnet-4-6,anthropic,0,,,
+71,0,0,social_post,94,70,gpt-5.6-terra,openai,0,,,
+71,0,0,social_post,94,70,claude-sonnet-5,anthropic,0,,,
+71,1,0,social_post,94,89,gpt-5.6-terra,openai,0,,,
+71,1,0,social_post,94,89,claude-sonnet-5,anthropic,0,,,
+72,0,0,writing,94,,gpt-5.6-terra,openai,1,post-live,evidence_published,"6-terra, a phase one failure occurs due to the failure of mandatory requirements, which is grounds for not funding"
+72,0,0,writing,94,,claude-sonnet-5,anthropic,1,(unidentified),record_completeness,"mandatory requirements in evaluations of this nature, highlighting how a single critical failure can decisively influence outcomes"
+72,2,0,writing,94,86,gpt-5.6-terra,openai,1,factual-accuracy,factual_integrity,"The claims about parallel jurors, failed-model exclusion, continued settlement, and the cited 1-of-2 evaluation are supported by the provided evaluation screenshots and stated public architecture source"
+72,2,0,writing,94,86,claude-sonnet-5,anthropic,1,(unidentified),other,- This aligns with the sole substantive positive input from claude-sonnet-5’s failure to contribute any score reduces the credibility of the opposing view
+72,3,0,writing,94,90,gpt-5.6-terra,openai,0,,,
+72,3,0,writing,94,90,claude-sonnet-5,anthropic,0,,,
+72,5,0,writing,94,93,gpt-5.6-terra,openai,1,post-live,evidence_published,"- Factual accuracy: The thread correctly describes partial model failure, exclusion of failed models from aggregation, and the 1-of-2 evaluation mechanism, all supported by bounty evidence and repository docs"
+72,5,0,writing,94,93,claude-sonnet-5,anthropic,0,,,
+72,6,0,writing,94,92,gpt-5.6-terra,openai,1,post-live,evidence_published,"The mechanism is consistent with the stated policy: failed models are excluded from aggregation, successful models determine the result when the success threshold is met, and the concrete 1-of-2 example is accurately described"
+72,6,0,writing,94,92,claude-sonnet-5,anthropic,0,,,
+72,7,0,writing,94,92,gpt-5.6-terra,openai,1,post-live,evidence_published,"- Factual Accuracy: PASS - The project's documentation and evaluation report were verified, showing that any models that failed during testing are excluded from influencing the results"
+72,7,0,writing,94,92,claude-sonnet-5,anthropic,0,,,
+72,8,0,writing,94,87,gpt-5.6-terra,openai,0,,,
+72,8,0,writing,94,87,claude-sonnet-5,anthropic,0,,,
+72,9,0,writing,94,89,gpt-5.6-terra,openai,0,,,
+72,9,0,writing,94,89,claude-sonnet-5,anthropic,0,,,
+72,10,0,writing,94,14,gpt-5.6-terra,openai,1,post-live,evidence_published,Phase 1): Mandatory requirements FAILED
+72,10,0,writing,94,14,claude-sonnet-5,anthropic,0,,,
+73,0,0,social_post,94,83,gpt-5.6-terra,openai,0,,,
+73,0,0,social_post,94,83,claude-sonnet-5,anthropic,0,,,
+81,0,0,math_open_problem,96,,gpt-5.6-terra,openai,1,scope,format_scope,Mandatory requirement failed
+81,0,0,math_open_problem,96,,claude-sonnet-5,anthropic,1,correct,record_completeness,"In this context, the first element reflects a strong decision against funding, driven by the decisive content-based assessment (mandatory requirement failure)"
+81,1,0,math_open_problem,96,93,gpt-5.6-terra,openai,0,,,
+81,1,0,math_open_problem,96,93,claude-sonnet-5,anthropic,0,,,
+81,2,0,math_open_problem,96,94,gpt-5.6-terra,openai,0,,,
+81,2,0,math_open_problem,96,94,claude-sonnet-5,anthropic,0,,,
+81,3,0,math_open_problem,96,94,gpt-5.6-terra,openai,0,,,
+81,3,0,math_open_problem,96,94,claude-sonnet-5,anthropic,1,correct,record_completeness,"gated decision vector [60,000, 940,000] aligns with prioritizing strong, verifiable, and generalizable arguments over incomplete or failed ones"
+81,4,0,math_open_problem,96,12,gpt-5.6-terra,openai,1,correct,record_completeness,Mandatory requirement failed
+81,4,0,math_open_problem,96,12,claude-sonnet-5,anthropic,1,correct,record_completeness,"- Core correctness is indispensable for funding, yet the proof’s central claim rests on an enormous, unverifiable-by-human inspection of a large computational search and an unpeer-reviewed external preprint (Rosenfeld’s approach)"
+83,0,0,research_verify,90,82,gpt-5.6-sol,openai,0,,,
+83,0,0,research_verify,90,82,claude-sonnet-5,anthropic,0,,,
+89,0,0,writing,85,84,gpt-5.6-sol,openai,0,,,
+89,0,0,writing,85,84,claude-sonnet-5,anthropic,0,,,
+89,2,0,writing,85,72,gpt-5.6-sol,openai,0,,,
+89,2,0,writing,85,72,claude-sonnet-5,anthropic,0,,,
+94,0,0,writing,85,82,gpt-5.6-sol,openai,0,,,
+94,0,0,writing,85,82,claude-sonnet-5,anthropic,0,,,
+94,1,0,writing,85,82,gpt-5.6-sol,openai,0,,,
+94,1,0,writing,85,82,claude-sonnet-5,anthropic,0,,,
+101,0,0,writing,85,46,gpt-5.6-sol,openai,0,,,
+101,0,0,writing,85,46,claude-sonnet-5,anthropic,0,,,
+101,1,0,writing,85,52,gpt-5.6-sol,openai,0,,,
+101,1,0,writing,85,52,claude-sonnet-5,anthropic,0,,,
+101,4,0,writing,85,31,gpt-5.6-sol,openai,0,,,
+101,4,0,writing,85,31,claude-sonnet-5,anthropic,0,,,
+101,5,0,writing,85,77,gpt-5.6-sol,openai,0,,,
+101,5,0,writing,85,77,claude-sonnet-5,anthropic,0,,,
+101,6,0,writing,85,59,gpt-5.6-sol,openai,0,,,
+101,6,0,writing,85,59,claude-sonnet-5,anthropic,0,,,
+101,7,0,writing,85,73,gpt-5.6-sol,openai,0,,,
+101,7,0,writing,85,73,claude-sonnet-5,anthropic,0,,,
+101,8,0,writing,85,77,gpt-5.6-sol,openai,0,,,
+101,8,0,writing,85,77,claude-sonnet-5,anthropic,0,,,
+101,10,0,writing,85,70,gpt-5.6-sol,openai,0,,,
+101,10,0,writing,85,70,claude-sonnet-5,anthropic,0,,,
+102,0,0,social_post,91,27,gpt-5.2-2025-12-11,openai,0,,,
+102,0,0,social_post,91,27,claude-sonnet-4-6,anthropic,0,,,
+102,1,0,social_post,91,18,gpt-5.2-2025-12-11,openai,1,three_distinct_sourced_incidents,factual_integrity,- Overall Phase 1 result: MANDATORY REQUIREMENT FAILED
+102,1,0,social_post,91,18,claude-sonnet-4-6,anthropic,0,,,
+102,2,0,social_post,91,59,gpt-5.2-2025-12-11,openai,0,,,
+102,2,0,social_post,91,59,claude-sonnet-4-6,anthropic,0,,,
+102,3,0,social_post,91,65,gpt-5.2-2025-12-11,openai,0,,,
+102,3,0,social_post,91,65,claude-sonnet-4-6,anthropic,0,,,
+105,0,0,writing,90,67,gpt-5.6-sol,openai,0,,,
+105,0,0,writing,90,67,claude-sonnet-5,anthropic,0,,,
+105,1,0,writing,90,86,gpt-5.6-sol,openai,0,,,
+105,1,0,writing,90,86,claude-sonnet-5,anthropic,0,,,
+105,2,0,writing,90,85,gpt-5.6-sol,openai,0,,,
+105,2,0,writing,90,85,claude-sonnet-5,anthropic,0,,,
+105,3,0,writing,90,85,gpt-5.6-sol,openai,0,,,
+105,3,0,writing,90,85,claude-sonnet-5,anthropic,0,,,
+105,4,0,writing,90,86,gpt-5.6-sol,openai,0,,,
+105,4,0,writing,90,86,claude-sonnet-5,anthropic,0,,,
+105,5,0,writing,90,44,gpt-5.6-sol,openai,0,,,
+105,5,0,writing,90,44,claude-sonnet-5,anthropic,1,question-real,evidence_published,mandatory delivery failure that (if strictly enforced) would override the content
+106,2,0,social_post,90,61,gpt-5.6-sol,openai,0,,,
+106,2,0,social_post,90,61,claude-sonnet-5,anthropic,1,real-experience,record_completeness,"Mandatory Requirements: The model raises uncertainty, suggesting a likely fail due to suspicious elements indicating fabrication: future-dated timestamps, malformed wallet addresses, and irregular transaction hash lengths"
+107,0,0,social_post,90,76,gpt-5.6-sol,openai,0,,,
+107,0,0,social_post,90,76,claude-sonnet-5,anthropic,0,,,
+107,1,0,social_post,90,86,gpt-5.6-sol,openai,0,,,
+107,1,0,social_post,90,86,claude-sonnet-5,anthropic,0,,,
+107,2,0,social_post,90,74,gpt-5.6-sol,openai,0,,,
+107,2,0,social_post,90,74,claude-sonnet-5,anthropic,0,,,
+107,3,0,social_post,90,79,gpt-5.6-sol,openai,0,,,
+107,3,0,social_post,90,79,claude-sonnet-5,anthropic,0,,,
+107,4,0,social_post,90,75,gpt-5.6-sol,openai,0,,,
+107,4,0,social_post,90,75,claude-sonnet-5,anthropic,0,,,
+107,5,0,social_post,90,88,gpt-5.6-sol,openai,0,,,
+107,5,0,social_post,90,88,claude-sonnet-5,anthropic,0,,,
+107,6,0,social_post,90,87,gpt-5.6-sol,openai,0,,,
+107,6,0,social_post,90,87,claude-sonnet-5,anthropic,0,,,
+107,7,0,social_post,90,85,gpt-5.6-sol,openai,0,,,
+107,7,0,social_post,90,85,claude-sonnet-5,anthropic,0,,,
+107,8,0,social_post,90,87,gpt-5.6-sol,openai,0,,,
+107,8,0,social_post,90,87,claude-sonnet-5,anthropic,0,,,
+108,0,0,research_verify,75,64,gpt-5.2-2025-12-11,openai,0,,,
+108,0,0,research_verify,75,64,claude-sonnet-4-6,anthropic,0,,,
+117,0,0,textbook_math_logic,82,52,gpt-5.6-sol,openai,0,,,
+117,0,0,textbook_math_logic,82,52,claude-sonnet-5,anthropic,0,,,
+122,0,0,code,90,,gpt-5.6-sol,openai,1,posting_proof,record_completeness,"6-sol highlights that the confirmation screenshot does not show all submitted fields, and the pre-submit screenshot fails to establish every recorded field, including the subcategory, which compromises the integrity of submission proof"
+122,0,0,code,90,,claude-sonnet-5,anthropic,1,posting_proof,record_completeness,- Contributor_disclosure: FAIL (central issues)
+123,0,0,writing,91,22,gpt-5.6-sol,openai,1,disclosure,record_completeness,- posting_proof: FAIL (forum-post
+123,0,0,writing,91,22,claude-sonnet-5,anthropic,0,,,
+123,1,0,writing,91,,gpt-5.6-sol,openai,0,,,
+123,1,0,writing,91,,claude-sonnet-5,anthropic,0,,,
+123,2,0,writing,91,48,gpt-5.6-sol,openai,0,,,
+123,2,0,writing,91,48,claude-sonnet-5,anthropic,1,(unidentified),other,mandatory failure in the aggregated result
+123,3,0,writing,91,46,gpt-5.6-sol,openai,0,,,
+123,3,0,writing,91,46,claude-sonnet-5,anthropic,1,posting_proof,evidence_published,"- Fails the ""posting_proof"" requirement due to errors in hash integrity and inconsistencies of the repository submission with the recorded posting timeline"
+123,4,0,writing,91,48,gpt-5.6-sol,openai,0,,,
+123,4,0,writing,91,48,claude-sonnet-5,anthropic,1,disclosure,evidence_published,"- The combination of a malformed checksum and unverifiable URLs leads this model to classify the mandatory criterion as failed, and thus to recommend DONT_FUND with a strong stance (arguing a mandatory criterion failure overrides"
+124,0,0,research_verify,80,61,gpt-5.2-2025-12-11,openai,0,,,
+124,0,0,research_verify,80,61,claude-sonnet-4-6,anthropic,0,,,
+124,3,0,research_verify,80,40,gpt-5.2-2025-12-11,openai,0,,,
+124,3,0,research_verify,80,40,claude-sonnet-4-6,anthropic,0,,,
+124,4,0,research_verify,80,54,gpt-5.2-2025-12-11,openai,0,,,
+124,4,0,research_verify,80,54,claude-sonnet-4-6,anthropic,0,,,
+124,6,0,research_verify,80,52,gpt-5.2-2025-12-11,openai,0,,,
+124,6,0,research_verify,80,52,claude-sonnet-4-6,anthropic,0,,,
+125,0,0,b4b,88,48,gpt-5.6-sol,openai,0,,,
+125,0,0,b4b,88,48,claude-sonnet-5,anthropic,0,,,
+125,1,0,b4b,88,80,gpt-5.6-sol,openai,0,,,
+125,1,0,b4b,88,80,claude-sonnet-5,anthropic,0,,,
+135,0,0,textbook_math_logic,80,79,gpt-5.6-sol,openai,0,,,
+135,0,0,textbook_math_logic,80,79,claude-sonnet-5,anthropic,0,,,
+140,0,0,writing,82,54,gpt-5.2-2025-12-11,openai,0,,,
+140,0,0,writing,82,54,claude-sonnet-4-6,anthropic,0,,,
+141,0,0,social_post,90,44,gpt-5.6-sol,openai,1,published,evidence_published,"Requirement: This model identifies a failure due to the absence of the required screenshot, which it considers crucial for verifying the published status, leading to an overall failure of the mandatory requirements"
+141,0,0,social_post,90,44,claude-sonnet-5,anthropic,0,,,
+142,0,0,research_verify,90,63,gpt-5.6-sol,openai,0,,,
+142,0,0,research_verify,90,63,claude-sonnet-5,anthropic,0,,,
+143,0,0,research_verify,90,80,gpt-5.6-sol,openai,0,,,
+143,0,0,research_verify,90,80,claude-sonnet-5,anthropic,0,,,
+146,0,0,social_post,88,47,gpt-5.6-terra,openai,1,g2,evidence_published,"- The model strictly checks the mandatory requirements (g1, g2, g3) and concludes with a ""DONT_FUND"" recommendation based on failing criteria"
+146,0,0,social_post,88,47,claude-sonnet-5,anthropic,0,,,
+151,0,0,math_open_problem,95,54,gpt-5.6-sol,openai,0,,,
+151,0,0,math_open_problem,95,54,claude-sonnet-5,anthropic,1,complete-resolution,originality_novelty,"- This model expresses significant suspicion towards the submission, indicating that the mandatory requirement of complete-resolution likely fails"
+151,1,0,math_open_problem,95,55,gpt-5.6-sol,openai,0,,,
+151,1,0,math_open_problem,95,55,claude-sonnet-5,anthropic,1,complete-resolution,originality_novelty,"Phase 1 - Mandatory Requirements: In contrast, this model FAILS the complete-resolution criteria, with significant concern highlighted around reliance on an unverifiable external result from a very recent source (arXiv:2411"
+151,2,0,math_open_problem,95,56,gpt-5.6-sol,openai,0,,,
+151,2,0,math_open_problem,95,56,claude-sonnet-5,anthropic,1,complete-resolution,originality_novelty,"PHASE 1 - Complete-resolution: This model accounts for significant substantive doubts, rendering a FAIL verdict for the mandatory requirement"
+151,3,0,math_open_problem,95,1,gpt-5.6-sol,openai,0,,,
+151,3,0,math_open_problem,95,1,claude-sonnet-5,anthropic,0,,,
+151,4,0,math_open_problem,95,52,gpt-5.6-sol,openai,1,complete-resolution,originality_novelty,"- Do not fund (DONT_FUND) due to failure to establish a rigorous, independent complete-resolution proof for k=8 and due to heavy reliance on external, potentially unverified results with incomplete independent verification"
+151,4,0,math_open_problem,95,52,claude-sonnet-5,anthropic,1,complete-resolution,originality_novelty,"- claude-sonnet-5 flags substantial concerns about completeness, reliance on unverified external sources, and non-independent verification, concluding “Suspicious/FAIL-leaning” for the mandatory requirement"
+151,9,0,math_open_problem,95,55,gpt-5.6-sol,openai,0,,,
+151,9,0,math_open_problem,95,55,claude-sonnet-5,anthropic,0,,,
+152,0,0,research_verify,85,84,gpt-5.6-terra,openai,0,,,
+152,0,0,research_verify,85,84,claude-sonnet-5,anthropic,0,,,
+153,0,0,research_verify,85,62,gpt-5.6-terra,openai,0,,,
+153,0,0,research_verify,85,62,claude-sonnet-5,anthropic,1,Exact scope and coverage,format_scope,mandatory failures (core reason for DONT_FUND)
+159,0,0,code,70,68,gpt-5.6-terra,openai,0,,,
+159,0,0,code,70,68,claude-sonnet-5,anthropic,0,,,
+160,0,0,writing,70,56,gpt-5.6-terra,openai,0,,,
+160,0,0,writing,70,56,claude-sonnet-5,anthropic,0,,,
+163,0,0,writing,70,61,gpt-5.6-terra,openai,0,,,
+163,0,0,writing,70,61,claude-sonnet-5,anthropic,0,,,
+164,0,0,social_post,89,43,gpt-5.6-terra,openai,1,g1_words,format_scope,mandatory requirements due to a FAIL in the g4_substance criterion
+164,0,0,social_post,89,43,claude-sonnet-5,anthropic,0,,,
+164,1,0,social_post,89,46,gpt-5.6-terra,openai,1,g1_words,format_scope,"Mandatory Requirements: Although this model determined that the submission passed most mandatory criteria (g1_words, g2_bundle, and g3_honest), it flagged a failure in g4_substance"
+164,1,0,social_post,89,46,claude-sonnet-5,anthropic,0,,,
+165,0,0,social_post,89,45,gpt-5.6-terra,openai,1,g1_words,format_scope,"6-terra concludes with a definitive DONT_FUND due to the substance requirement fail, reflecting a strict adherence to format criteria"
+165,0,0,social_post,89,45,claude-sonnet-5,anthropic,0,,,
+175,0,0,social_post,88,45,gpt-5.6-sol,openai,1,post-live,evidence_published,"Phase 1 - Mandatory Requirements: The model fails the submission under the 'post-live' criterion because it notes the absence of a required screenshot, which is critical to verify the screenshot-to-URL matching and public accessibility of t"
+175,0,0,social_post,88,45,claude-sonnet-5,anthropic,0,,,
+176,0,0,textbook_math_logic,91,55,gpt-5.6-sol,openai,0,,,
+176,0,0,textbook_math_logic,91,55,claude-sonnet-5,anthropic,1,correct-key-move,other,"- Correct-key-move: This model fails the move, arguing Ra7 does not constrain Black sufficiently, with the inclusion of unaddressed potential king moves, indicating an incomplete analysis"
+182,0,0,writing,95,83,gpt-5.6-terra,openai,0,,,
+182,0,0,writing,95,83,gpt-5.6-sol,openai,0,,,
+182,0,0,writing,95,83,claude-sonnet-5,anthropic,0,,,
+182,0,0,writing,95,83,claude-sonnet-4-6,anthropic,0,,,
+182,1,0,writing,95,88,gpt-5.6-terra,openai,0,,,
+182,1,0,writing,95,88,gpt-5.6-sol,openai,0,,,
+182,1,0,writing,95,88,claude-sonnet-5,anthropic,0,,,
+182,1,0,writing,95,88,claude-sonnet-4-6,anthropic,0,,,
+182,2,0,writing,95,90,gpt-5.6-terra,openai,0,,,
+182,2,0,writing,95,90,gpt-5.6-sol,openai,0,,,
+182,2,0,writing,95,90,claude-sonnet-5,anthropic,0,,,
+182,2,0,writing,95,90,claude-sonnet-4-6,anthropic,0,,,
+182,3,0,writing,95,89,gpt-5.6-terra,openai,0,,,
+182,3,0,writing,95,89,gpt-5.6-sol,openai,0,,,
+182,3,0,writing,95,89,claude-sonnet-5,anthropic,0,,,
+182,3,0,writing,95,89,claude-sonnet-4-6,anthropic,0,,,
+182,4,0,writing,95,93,gpt-5.6-terra,openai,0,,,
+182,4,0,writing,95,93,gpt-5.6-sol,openai,0,,,
+182,4,0,writing,95,93,claude-sonnet-5,anthropic,0,,,
+182,4,0,writing,95,93,claude-sonnet-4-6,anthropic,0,,,
+182,5,0,writing,95,93,gpt-5.6-terra,openai,0,,,
+182,5,0,writing,95,93,gpt-5.6-sol,openai,0,,,
+182,5,0,writing,95,93,claude-sonnet-5,anthropic,0,,,
+182,5,0,writing,95,93,claude-sonnet-4-6,anthropic,0,,,
+182,6,0,writing,95,89,gpt-5.6-terra,openai,0,,,
+182,6,0,writing,95,89,gpt-5.6-sol,openai,0,,,
+182,6,0,writing,95,89,claude-sonnet-5,anthropic,0,,,
+182,6,0,writing,95,89,claude-sonnet-4-6,anthropic,0,,,
+184,0,0,writing,82,41,gpt-5.6-sol,openai,0,,,
+184,0,0,writing,82,41,claude-sonnet-5,anthropic,0,,,
+187,0,0,other,83,68,gpt-5.6-sol,openai,0,,,
+187,0,0,other,83,68,claude-sonnet-5,anthropic,0,,,
+187,2,0,other,83,62.75,gpt-5.6-sol,openai,0,,,
+187,2,0,other,83,62.75,claude-sonnet-5,anthropic,0,,,
+188,2,0,writing,85,84.25,gpt-5.6-sol,openai,0,,,
+188,2,0,writing,85,84.25,claude-sonnet-5,anthropic,0,,,
+196,0,0,other,85,55,gpt-5.6-terra,openai,0,,,
+196,0,0,other,85,55,claude-sonnet-5,anthropic,0,,,
+196,1,0,other,85,55,gpt-5.6-terra,openai,0,,,
+196,1,0,other,85,55,claude-sonnet-5,anthropic,0,,,
+196,2,0,other,85,61,gpt-5.6-terra,openai,0,,,
+196,2,0,other,85,61,claude-sonnet-5,anthropic,1,(unidentified),other,"- Threshold effect: Claude’s submission achieves a higher composite quality, but the stated threshold (85) is not met"
+197,0,1,writing,85,83,gpt-5.6-terra,openai,0,,,
+197,0,1,writing,85,83,claude-sonnet-5,anthropic,0,,,
+197,1,1,writing,85,84,gpt-5.6-terra,openai,0,,,
+197,1,1,writing,85,84,claude-sonnet-5,anthropic,1,length,format_scope,"- Length meets requirement in both models’ reports, reducing risk of a gating failure"
+239,0,0,writing,82,68,gpt-5.6-terra,openai,0,,,
+239,4,0,writing,82,28,gpt-5.6-terra,openai,0,,,
+239,5,0,writing,82,20,gpt-5.6-terra,openai,0,,,
+239,6,0,writing,82,25,gpt-5.6-terra,openai,0,,,
+239,7,0,writing,82,31,gpt-5.6-terra,openai,0,,,
+239,8,0,writing,82,72,gpt-5.6-terra,openai,0,,,
+239,9,0,writing,82,26,gpt-5.6-terra,openai,0,,,
+241,0,0,writing,89,46,gpt-5.6-terra,openai,1,(unidentified),other,"6-terra adopted a strict pass/fail approach, giving significant weight to consistency in all aspects of evidence presentation, thus leading to non-funding due to a potential verifiability issue"
+241,0,0,writing,89,46,claude-sonnet-5,anthropic,1,g4_bundle,record_completeness,"- claude-sonnet-5, while noting the same inconsistency, did not consider it a failure of the mandatory requirements but rather a minor issue reflected in a small deduction during quality scoring"
+242,0,0,social_post,92,17,gpt-5.6-terra,openai,0,,,
+242,0,0,social_post,92,17,claude-sonnet-5,anthropic,0,,,
+242,2,0,social_post,92,18,gpt-5.6-terra,openai,1,g4_bundle,evidence_published,"The root causes of failure are identical across both assessments, focusing on non-fulfillment of key requirements like venue justification and evidence bundle completeness"
+242,2,0,social_post,92,18,claude-sonnet-5,anthropic,1,g2_venue,evidence_published,"gated decision vector [850000,150000] does not align with the mandatory requirement failures dictated by both models"
+242,3,0,social_post,92,10,gpt-5.6-terra,openai,1,g1_language,evidence_published,"- g2_venue: FAIL - The submission lacks evidence of an established Portuguese-speaking audience for the Substack profile, lacking community or reach indicators in Portuguese"
+242,3,0,social_post,92,10,claude-sonnet-5,anthropic,0,,,
+242,4,0,social_post,92,81,gpt-5.6-terra,openai,0,,,
+242,4,0,social_post,92,81,claude-sonnet-5,anthropic,0,,,
+242,6,0,social_post,92,,gpt-5.6-terra,openai,1,g1_language,format_scope,- g3_no_disclaimer: This was a critical failure point
+242,6,0,social_post,92,,claude-sonnet-5,anthropic,0,,,
+242,7,0,social_post,92,51,gpt-5.6-terra,openai,0,,,
+242,7,0,social_post,92,51,claude-sonnet-5,anthropic,0,,,
+243,0,0,social_post,92,26,gpt-5.6-terra,openai,0,,,
+243,0,0,social_post,92,26,claude-sonnet-5,anthropic,0,,,
+243,1,0,social_post,92,2,gpt-5.6-terra,openai,1,g2_venue,evidence_published,"mandatory requirement failures, particularly in g2_venue and g4_bundle"
+243,1,0,social_post,92,2,claude-sonnet-5,anthropic,1,g1_language,format_scope,"This lack of information is critical because it makes it impossible to verify the reach or target audience of the post, leading to a failure of this criterion"
+243,2,0,social_post,92,7,gpt-5.6-terra,openai,0,,,
+243,2,0,social_post,92,7,claude-sonnet-5,anthropic,1,g4_bundle,evidence_published,- The model identifies a fatal failure in g4_bundle where the submitted evidence does not match the live post
+243,4,0,social_post,92,44,gpt-5.6-terra,openai,0,,,
+243,4,0,social_post,92,44,claude-sonnet-5,anthropic,0,,,
+243,5,0,social_post,92,37,gpt-5.6-terra,openai,1,g4_bundle,evidence_published,- Fails the bundle requirement due to issues with timestamp clarity and permalink access
+243,5,0,social_post,92,37,claude-sonnet-5,anthropic,0,,,
+243,6,0,social_post,92,42,gpt-5.6-terra,openai,0,,,
+243,6,0,social_post,92,42,claude-sonnet-5,anthropic,0,,,
+243,8,0,social_post,92,66,gpt-5.6-terra,openai,0,,,
+243,8,0,social_post,92,66,claude-sonnet-5,anthropic,0,,,
+252,0,0,research_verify,80,11,gpt-5.6-terra,openai,1,criterion_1792273259397,evidence_published,- Both models concur that the submission fails to meet the mandatory requirements necessary for consideration
+252,0,0,research_verify,80,11,claude-sonnet-5,anthropic,1,criterion_1792273259397,evidence_published,- Both models indicated a failure to identify five genuine and qualifying tools
+252,1,0,research_verify,80,,gpt-5.6-terra,openai,0,,,
+252,1,0,research_verify,80,,claude-sonnet-5,anthropic,1,criterion_1792273259397,evidence_published,"- claude-sonnet-5: The qTrack GitHub link points to an unrelated product, failing the explicit requirement that the official source clearly points to the allegedly qualifying tool"
+252,2,0,research_verify,80,3,gpt-5.6-terra,openai,1,(unidentified),other,
+252,2,0,research_verify,80,3,claude-sonnet-5,anthropic,1,criterion_1792273259397,evidence_published,- Both models independently identified a complete failure to meet the mandatory requirements for the submission
+253,0,0,other,80,,gpt-5.6-terra,openai,1,integrity,eligibility_identity,"Source Verification Failure: Although the scores were confirmed through reputable sources like NFL and CBS pages, the submission's evidence did not directly quote or show these scores; instead, it relied on an additional blog source, which "
+253,0,0,other,80,,claude-sonnet-5,anthropic,0,,,
+253,1,0,other,80,,gpt-5.6-terra,openai,1,counter_bounty_onchain,evidence_published,- Final result cited from two reputable sources and confirmed by the jury: FAIL
+253,1,0,other,80,,claude-sonnet-5,anthropic,1,counter_bounty_onchain,evidence_published,"gated decision vector (1000000 for DONT_FUND) is justified by the mandatory requirements failing primarily due to incomplete sourcing/citation documentation and inconsistent evidence across counter-bounty IDs, despite some supporting factor"
+253,2,0,other,80,,gpt-5.6-terra,openai,1,integrity,eligibility_identity,"- The aggregation reflects a more substantial weight given to the ""DONT_FUND"" determination due to the failure of the mandatory requirements"
+253,2,0,other,80,,claude-sonnet-5,anthropic,0,,,
+253,3,0,other,80,,gpt-5.6-terra,openai,1,counter_bounty_terms,evidence_published,"- This is technically PASS, but irrelevant in the presence of Criterion 5 failure"
+253,3,0,other,80,,claude-sonnet-5,anthropic,0,,,
+253,4,0,other,80,1,gpt-5.6-terra,openai,1,integrity,eligibility_identity,Consistent Failures:
+253,4,0,other,80,1,claude-sonnet-5,anthropic,1,integrity,eligibility_identity,"- Both models evaluated that the submission fails to meet mandatory requirements, specifically related to confirming the counter-bounty terms and overall evidence integrity"
+255,0,0,code,75,24,gpt-5.6-terra,openai,0,,,
+301,0,0,other,80,,gpt-5.6-terra,openai,1,integrity,evidence_published,"requirement because although URLs were provided, the necessary verbatim quotes or screenshots confirming the outcome were missing or not retrievable"
+301,0,0,other,80,,claude-sonnet-5,anthropic,1,claimant_side_won,other,- Both models highlight that this is a decisive failure
+304,1,0,research_verify,80,68,gpt-5.6-terra,openai,0,,,
+304,2,0,research_verify,80,69,gpt-5.6-terra,openai,0,,,
+307,0,0,social_post,92,,gpt-5.6-terra,openai,1,g1_language,evidence_published,- Both models identified that the post failed to satisfy venue requirements
+307,0,0,social_post,92,,claude-sonnet-5,anthropic,1,g4_bundle,evidence_published,Mandatory Requirement Failures:
+307,4,0,social_post,92,,gpt-5.6-terra,openai,0,,,
+307,4,0,social_post,92,,claude-sonnet-5,anthropic,0,,,
+308,0,0,social_post,92,78,gpt-5.6-terra,openai,0,,,
+308,0,0,social_post,92,78,claude-sonnet-5,anthropic,0,,,
+316,0,0,social_post,92,37,gpt-5.6-terra,openai,1,g4_bundle,evidence_published,- g5_honest: Fail
+316,0,0,social_post,92,37,claude-sonnet-5,anthropic,0,,,
+317,0,0,social_post,82,79,gpt-5.6-terra,openai,0,,,
+317,0,0,social_post,82,79,claude-sonnet-5,anthropic,0,,,
+318,1,0,research_verify,78,42,gpt-5.6-terra,openai,1,g2_honest,evidence_published,- Honesty Requirement: FAIL - The submission was found to contain an unsupported factual claim about a 63% pass rate
+318,1,0,research_verify,78,42,claude-sonnet-5,anthropic,0,,,
+319,0,0,social_post,92,89,gpt-5.6-terra,openai,0,,,
+319,0,0,social_post,92,89,claude-sonnet-5,anthropic,0,,,
+319,1,0,social_post,92,44,gpt-5.6-terra,openai,1,g1_language,format_scope,g4_bundle: Failed - This is where the model determined the submission did not meet all necessary conditions
+319,1,0,social_post,92,44,claude-sonnet-5,anthropic,0,,,
+320,0,0,social_post,92,90,gpt-5.6-terra,openai,0,,,
+320,0,0,social_post,92,90,claude-sonnet-5,anthropic,0,,,
+320,1,0,social_post,92,91,gpt-5.6-terra,openai,0,,,
+320,1,0,social_post,92,91,claude-sonnet-5,anthropic,0,,,
+320,2,0,social_post,92,89,gpt-5.6-terra,openai,0,,,
+320,2,0,social_post,92,89,claude-sonnet-5,anthropic,0,,,
+321,0,0,social_post,92,1,gpt-5.6-terra,openai,1,g2_venue,evidence_published,Venue Requirement (g2_venue): Both models identified a crucial failure in meeting the venue requirement
+321,0,0,social_post,92,1,claude-sonnet-5,anthropic,1,g1_language,format_scope,"These requirements function as a strict filtering process where failure in any one mandatory category results in an automatic ""DONT_FUND"" decision"
+322,0,0,social_post,92,91,gpt-5.6-terra,openai,0,,,
+322,0,0,social_post,92,91,claude-sonnet-5,anthropic,0,,,
+322,1,0,social_post,92,90,gpt-5.6-terra,openai,0,,,
+322,1,0,social_post,92,90,claude-sonnet-5,anthropic,0,,,
+322,2,0,social_post,92,89,gpt-5.6-terra,openai,0,,,
+322,2,0,social_post,92,89,claude-sonnet-5,anthropic,0,,,
+322,5,0,social_post,92,88,gpt-5.6-terra,openai,0,,,
+322,5,0,social_post,92,88,claude-sonnet-5,anthropic,0,,,
+322,6,0,social_post,92,91,gpt-5.6-terra,openai,0,,,
+322,6,0,social_post,92,91,claude-sonnet-5,anthropic,0,,,
+322,7,0,social_post,92,90,gpt-5.6-terra,openai,0,,,
+322,7,0,social_post,92,90,claude-sonnet-5,anthropic,0,,,
+322,8,0,social_post,92,44,gpt-5.6-terra,openai,1,g2_venue,evidence_published,"The venue's failure to demonstrate a robust Indonesian connection in the first model, despite appearing marginally acceptable in the second model, ultimately tilts the balance slightly against funding"
+322,8,0,social_post,92,44,claude-sonnet-5,anthropic,0,,,
+322,9,0,social_post,92,89,gpt-5.6-terra,openai,0,,,
+322,9,0,social_post,92,89,claude-sonnet-5,anthropic,0,,,
+322,10,0,social_post,92,,gpt-5.6-terra,openai,0,,,
+322,10,0,social_post,92,,claude-sonnet-5,anthropic,1,g2_venue,evidence_published,Venue Appropriateness (g2_venue Failure):
+322,11,0,social_post,92,90,gpt-5.6-terra,openai,0,,,
+322,11,0,social_post,92,90,claude-sonnet-5,anthropic,0,,,
+322,12,0,social_post,92,89,gpt-5.6-terra,openai,0,,,
+322,12,0,social_post,92,89,claude-sonnet-5,anthropic,0,,,
+322,13,0,social_post,92,89,gpt-5.6-terra,openai,0,,,
+322,13,0,social_post,92,89,claude-sonnet-5,anthropic,0,,,
+322,14,0,social_post,92,87,gpt-5.6-terra,openai,0,,,
+322,14,0,social_post,92,87,claude-sonnet-5,anthropic,0,,,
+322,15,0,social_post,92,85,gpt-5.6-terra,openai,0,,,
+322,15,0,social_post,92,85,claude-sonnet-5,anthropic,0,,,
+322,16,0,social_post,92,,gpt-5.6-terra,openai,1,g5_honest,factual_integrity,MANDATORY REQUIREMENT FAILED
+322,16,0,social_post,92,,claude-sonnet-5,anthropic,1,g2_venue,evidence_published,"However, this alone is insufficient to proceed since other mandatory conditions are not satisfied"
+323,0,0,research_verify,80,68,gpt-5.6-terra,openai,0,,,
+323,0,0,research_verify,80,68,claude-sonnet-5,anthropic,0,,,
+323,1,0,research_verify,80,64,gpt-5.6-terra,openai,0,,,
+323,1,0,research_verify,80,64,claude-sonnet-5,anthropic,0,,,
+323,2,0,research_verify,80,63,gpt-5.6-terra,openai,0,,,
+323,2,0,research_verify,80,63,claude-sonnet-5,anthropic,0,,,
+323,4,0,research_verify,80,76,gpt-5.6-terra,openai,0,,,
+323,4,0,research_verify,80,76,claude-sonnet-5,anthropic,0,,,
+323,5,0,research_verify,80,63,gpt-5.6-terra,openai,0,,,
+323,5,0,research_verify,80,63,claude-sonnet-5,anthropic,0,,,
+325,0,0,research_verify,85,75,gpt-5.6-terra,openai,0,,,
+325,0,0,research_verify,85,75,claude-sonnet-5,anthropic,0,,,
+326,0,0,research_verify,85,44,gpt-5.6-terra,openai,1,g3_marked,record_completeness,"mandatory requirements phase highlighted a critical failure in one of the five criteria, specifically g3_marked"
+326,0,0,research_verify,85,44,claude-sonnet-5,anthropic,0,,,
+328,2,0,code,85,42,gpt-5.6-terra,openai,1,g2_rules_followed,format_scope,"6-terra resulted in a final DONT_FUND due to failure in Phase 1, primarily driven by the perceived rules conflict"
+328,2,0,code,85,42,claude-sonnet-5,anthropic,0,,,
+330,0,0,code,85,84,gpt-5.6-terra,openai,0,,,
+330,0,0,code,85,84,claude-sonnet-5,anthropic,0,,,
+338,0,0,b4b,75,46,gpt-5.6-terra,openai,1,not_creator,eligibility_identity,requirement failed due to the inability to independently verify the submitter wallet and the on-chain creator of bounty 338
+338,0,0,b4b,75,46,claude-sonnet-5,anthropic,0,,,
+341,0,0,social_post,90,,gpt-5.6-terra,openai,1,g1_language,format_scope,- Language Requirement (g1_language): Both models identified and agreed that the submission failed the language requirement
+341,0,0,social_post,90,,claude-sonnet-5,anthropic,1,g1_language,format_scope,mandatory requirement failures
+342,0,0,social_post,90,44,gpt-5.6-terra,openai,1,g1_language,format_scope,- g2_venue: Fail due to doubts about the credibility of the venue as a dedicated Turkish audience space
+342,0,0,social_post,90,44,claude-sonnet-5,anthropic,0,,,
+344,0,0,social_post,90,85,gpt-5.6-terra,openai,0,,,
+344,0,0,social_post,90,85,claude-sonnet-5,anthropic,0,,,
+344,1,0,social_post,90,85,gpt-5.6-terra,openai,0,,,
+344,1,0,social_post,90,85,claude-sonnet-5,anthropic,0,,,
+344,2,0,social_post,90,88,gpt-5.6-terra,openai,0,,,
+344,2,0,social_post,90,88,claude-sonnet-5,anthropic,0,,,
+347,0,0,b4b,75,43,gpt-5.6-terra,openai,1,not_creator,eligibility_identity,"- funded_escrow: Failed – The model determined that the bounty was no longer open or active, thus not meeting the escrow funding requirement despite its past activity and payout status"
+347,0,0,b4b,75,43,claude-sonnet-5,anthropic,0,,,
+348,1,0,research_verify,80,47,gpt-5.6-terra,openai,1,verbatim_quotes,record_completeness,"mandatory requirements, it passes both ""all_five_claims"" and ""retrieval_times"" criteria but fails the ""verbatim_quotes"" requirement due to a specific formatting issue"
+348,1,0,research_verify,80,47,claude-sonnet-5,anthropic,0,,,
+350,0,0,b4b,75,47,gpt-5.6-terra,openai,1,not_creator,eligibility_identity,"- not_creator: FAIL - The model marked this as a failure because the creator of bounty 350 could not be verified on-chain, particularly due to inaccessible API endpoints"
+350,0,0,b4b,75,47,claude-sonnet-5,anthropic,0,,,
+350,5,0,b4b,75,,gpt-5.6-terra,openai,0,,,
+350,5,0,b4b,75,,claude-sonnet-5,anthropic,0,,,
+353,0,0,social_post,94,89,gpt-5.6-terra,openai,0,,,
+353,0,0,social_post,94,89,claude-sonnet-5,anthropic,0,,,
+353,1,0,social_post,94,90,gpt-5.6-terra,openai,0,,,
+353,1,0,social_post,94,90,claude-sonnet-5,anthropic,0,,,
+354,0,0,social_post,94,90,gpt-5.6-terra,openai,0,,,
+354,0,0,social_post,94,90,claude-sonnet-5,anthropic,0,,,
+354,1,0,social_post,94,90,gpt-5.6-terra,openai,0,,,
+354,1,0,social_post,94,90,claude-sonnet-5,anthropic,0,,,
+354,2,0,social_post,94,88,gpt-5.6-terra,openai,0,,,
+354,2,0,social_post,94,88,claude-sonnet-5,anthropic,0,,,
+355,0,0,research_verify,85,45,gpt-5.6-terra,openai,0,,,
+355,0,0,research_verify,85,45,claude-sonnet-5,anthropic,1,test_plan,record_completeness,"Conclusion on Mandatory Requirements: Despite an overall favorable analysis, the failure to meet one mandatory criterion according to claude-sonnet-5 found compliance across all mandatory checks"
+355,1,0,research_verify,85,46,gpt-5.6-terra,openai,1,reference_line,evidence_published,mandatory requirement is marked as FAILED due to a minor formatting issue in the first-line reference (not meeting the exact required first-line heading)
+355,1,0,research_verify,85,46,claude-sonnet-5,anthropic,0,,,
+356,0,0,social_post,92,91,gpt-5.6-terra,openai,0,,,
+356,0,0,social_post,92,91,claude-sonnet-5,anthropic,0,,,
+356,1,0,social_post,92,,gpt-5.6-terra,openai,0,,,
+356,1,0,social_post,92,,claude-sonnet-5,anthropic,1,evidence,evidence_published,mandatory failure per protocol
+356,2,0,social_post,92,89,gpt-5.6-terra,openai,0,,,
+356,2,0,social_post,92,89,claude-sonnet-5,anthropic,0,,,
+356,3,0,social_post,92,45,gpt-5.6-terra,openai,0,,,
+356,3,0,social_post,92,45,claude-sonnet-5,anthropic,1,evidence,evidence_published,- Consequence of mandatory failures:
+357,0,0,social_post,92,82,gpt-5.6-terra,openai,0,,,
+357,0,0,social_post,92,82,claude-sonnet-5,anthropic,0,,,
+357,1,0,social_post,92,81,gpt-5.6-terra,openai,0,,,
+357,1,0,social_post,92,81,claude-sonnet-5,anthropic,0,,,
+358,0,0,social_post,89,44,gpt-5.6-terra,openai,1,published,evidence_published,"Phase 1 mandatory: published FAIL (403, inaccessible permalink), no_disclosure PASS, evidence_provided FAIL (timezone issue; UTC not provided)"
+358,0,0,social_post,89,44,claude-sonnet-5,anthropic,0,,,
+359,0,0,research_verify,89,3,gpt-5.6-terra,openai,1,published,evidence_published,"- published: FAIL — No platform, live permalink, or verifiable forum post provided"
+359,0,0,research_verify,89,3,claude-sonnet-5,anthropic,0,,,
+359,2,0,research_verify,89,,gpt-5.6-terra,openai,1,published,evidence_published,- published: FAIL — The supplied njump
+359,2,0,research_verify,89,,claude-sonnet-5,anthropic,1,published,evidence_published,- The key determinant is the mandatory Phase 1 failure (published could not be verified due to timeout)
+360,0,0,social_post,89,45,gpt-5.6-terra,openai,1,published,evidence_published,"This is a critical failure as the submission must demonstrate that the post was published on a specified platform (LinkedIn, in this case) to be valid"
+360,0,0,social_post,89,45,claude-sonnet-5,anthropic,1,published,evidence_published,"- Model claude-sonnet-5: Similarly, this model also marked it as FAIL"
+360,1,0,social_post,89,,gpt-5.6-terra,openai,1,published,evidence_published,- published: FAIL
+360,1,0,social_post,89,,claude-sonnet-5,anthropic,1,(unidentified),other,- The decisive factor is the mandatory requirement status from claude-sonnet-5 does not countermand the failure of the mandatory requirement; it merely indicates an external API limitation prevented evaluation
+367,0,0,writing,89,0,gpt-5.6-terra,openai,1,length,format_scope,- Both models emphasized the failure in providing necessary evidence
+367,0,0,writing,89,0,claude-sonnet-5,anthropic,1,length,format_scope,"- Both models concluded a failure for the ""published"" criterion"
+367,1,0,writing,89,,gpt-5.6-terra,openai,1,length,evidence_published,- published: FAIL
+367,1,0,writing,89,,claude-sonnet-5,anthropic,1,length,format_scope,Failure of Mandatory Gates:
+371,0,0,b4b,75,44,gpt-5.6-terra,openai,0,,,
+371,0,0,b4b,75,44,claude-sonnet-5,anthropic,0,,,
+372,0,0,research_verify,75,40,gpt-5.6-terra,openai,0,,,
+372,0,0,research_verify,75,40,claude-sonnet-5,anthropic,0,,,
+372,1,0,research_verify,75,37,gpt-5.6-terra,openai,1,plagiarism,originality_novelty,"Mandatory Requirements: The model found that while the submission met plagiarism requirements, it failed on the 'gates' requirement because it did not include an attached"
+372,1,0,research_verify,75,37,claude-sonnet-5,anthropic,0,,,
+373,0,0,research_verify,75,,gpt-5.6-terra,openai,1,gates,evidence_published,"Gates Check: The failure to provide any accessible Markdown deliverable meant there was no means to confirm whether the submission met the format (one-file Markdown), word count (minimum 600 words), or heading structure requirements"
+373,0,0,research_verify,75,,claude-sonnet-5,anthropic,1,to meet mandatory,other,"Both models independently identified and articulated failures to meet standard project submission requirements, emphasizing:"
+373,1,0,research_verify,75,41,gpt-5.6-terra,openai,1,(unidentified),other,"6-terra's decision, primarily influenced by the failure to meet the Gate requirement with their assessment resulting in a clear unfunding"
+373,1,0,research_verify,75,41,claude-sonnet-5,anthropic,0,,,
+373,2,0,research_verify,75,73,gpt-5.6-terra,openai,0,,,
+373,2,0,research_verify,75,73,claude-sonnet-5,anthropic,0,,,
+373,3,0,research_verify,75,72,gpt-5.6-terra,openai,0,,,
+373,3,0,research_verify,75,72,claude-sonnet-5,anthropic,0,,,
+373,4,0,research_verify,75,46,gpt-5.6-terra,openai,1,gates,evidence_published,Gates Check: The submission failed the gates requirement according to gpt-5
+373,4,0,research_verify,75,46,claude-sonnet-5,anthropic,0,,,
+373,5,0,research_verify,75,47,gpt-5.6-terra,openai,1,plagiarism,originality_novelty,"6-terra assesses failure on a technicality in format expectations, the quality and content robustness presented by gpt-5"
+373,5,0,research_verify,75,47,claude-sonnet-5,anthropic,0,,,
+373,7,0,research_verify,75,43,gpt-5.6-terra,openai,1,plagiarism,originality_novelty,"mandatory requirements phase, the model found a critical failure: although the plagiarism check passed, the submission failed the 'gates' requirement"
+373,7,0,research_verify,75,43,claude-sonnet-5,anthropic,0,,,
+373,9,0,research_verify,75,24,gpt-5.6-terra,openai,1,gates,evidence_published,Mandatory Requirements: This model indicated a failure due to the structure and submission format
+373,9,0,research_verify,75,24,claude-sonnet-5,anthropic,0,,,
+373,12,0,research_verify,75,47,gpt-5.6-terra,openai,1,gates,evidence_published,"- Gates: The model assessed that the ""Gates"" requirement failed, as there was no separate Markdown file submitted"
+373,12,0,research_verify,75,47,claude-sonnet-5,anthropic,0,,,
+379,0,0,social_post,80,57,gpt-5.6-terra,openai,0,,,
+379,0,0,social_post,80,57,claude-sonnet-5,anthropic,0,,,
+379,0,0,social_post,80,57,claude-sonnet-4-6,anthropic,0,,,
+383,0,0,research_verify,75,23,gpt-5.6-terra,openai,0,,,
+383,0,0,research_verify,75,23,claude-sonnet-5,anthropic,0,,,
+384,0,0,research_verify,75,2,gpt-5.6-terra,openai,0,,,
+384,0,0,research_verify,75,2,claude-sonnet-5,anthropic,0,,,
+387,0,0,math_open_problem,95,,gpt-5.6-terra,openai,0,,,
+387,0,0,math_open_problem,95,,claude-sonnet-5,anthropic,0,,,
+388,0,0,research_verify,82,,gpt-5.6-terra,openai,0,,,
+388,0,0,research_verify,82,,claude-sonnet-5,anthropic,1,post_published,evidence_published,This failure is sufficient to halt further consideration of the submission based on the decision override rules
+388,1,0,research_verify,82,44,gpt-5.6-terra,openai,1,post_published,evidence_published,This led to a DONT_FUND weighting of 100 due to failing the mandatory requirement phase
+388,1,0,research_verify,82,44,claude-sonnet-5,anthropic,0,,,
+389,0,0,code,82,,gpt-5.6-terra,openai,1,post_published,evidence_published,Failure to Provide Necessary URL and Content:
+389,0,0,code,82,,claude-sonnet-5,anthropic,1,post_published,evidence_published,Mandatory Requirements Not Met: Both models clearly state that the submission fails at the mandatory requirement phase due to the absence of a permalink URL to a public social media post
+390,0,0,writing,90,84,gpt-5.6-terra,openai,0,,,
+390,0,0,writing,90,84,claude-sonnet-5,anthropic,0,,,

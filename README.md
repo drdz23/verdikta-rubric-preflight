@@ -41,6 +41,10 @@ The empirical table in `rubric_preflight.py` (`EMPIRICAL`) is generated from pub
 | v1.0 | Bounties 1–391 (2026-11-06) | Initial release |
 | v1.0.1 | same | `missing_jury_context` now recognises any populated jury-notes field (`juryNotes`, `jury_notes`, `juryContext`, `notes`…); new `--accept` / `preflightAccept` for reviewed risks |
 
+## Dataset
+
+The data behind the checker is in [`data/v1.0/`](data/v1.0/): bounties, submissions and per-juror failures as CSV, with the exclusions documented. Please cite the version you use.
+
 ## Templates
 
 See [`templates/README.md`](templates/README.md). There are three templates: publish-and-prove, sourced research table, and open-problem math. Each has a threshold, the rationale for where its gates go, and jury notes. All three pass the checker with no HIGH findings.

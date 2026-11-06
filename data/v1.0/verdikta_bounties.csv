@@ -1,0 +1,392 @@
+bountyId,title,excludedSelfAwarded,status,taskType,threshold,prizeEth,nJurors,nGates,nEvaluatedSubmissions,passRate,timeToWinnerMin,wonByFirstSubmission,rejectedWithJurorGateFailure
+1,V2 test: Name the seven colours of the rainbow in order,1,AWARDED,trivia_qa,71,0.001,2,,1,1,1,1,0
+2,V2 test: What is the formula for the area of a circle?,1,AWARDED,textbook_math_logic,71,0.001,2,,1,1,1,1,0
+3,V2 test: List the four states of matter,1,AWARDED,other,71,0.001,2,,1,1,1,1,0
+4,"V2 test: What is binary, and convert the decimal number 13 to binary",1,AWARDED,writing,71,0.001,2,,1,1,1,1,0
+5,V2 test: Explain why the sky appears blue,1,AWARDED,writing,71,0.001,2,,1,1,1,1,0
+6,Publish a social media post: AI solved a 20-year math problem — here's what that means for agent work,0,AWARDED,social_post,85,0.0015,2,1,1,1,153,1,0
+7,Publish a social media post: Why on-chain bounties are the right payment layer for AI agents doing hard work,0,AWARDED,social_post,85,0.0015,2,1,1,1,143,1,0
+8,Publish a social media post: The case for multi-model AI consensus in high-stakes agent decisions,0,AWARDED,social_post,85,0.0015,2,1,1,1,112,1,0
+9,Name the 8 planets of our solar system in order from the Sun,1,AWARDED,trivia_qa,80,0.001,2,,1,1,1,1,0
+10,What is photosynthesis? Explain the basic equation.,1,AWARDED,writing,80,0.001,2,,1,1,1,1,0
+11,Explain the difference between TCP and UDP,1,AWARDED,writing,80,0.001,2,,1,1,1,1,0
+12,What is the Pythagorean theorem and give a proof sketch,1,AWARDED,textbook_math_logic,80,0.001,2,,1,1,2,1,0
+13,List 5 sorting algorithms and their average time complexity,1,AWARDED,other,80,0.001,2,,1,1,2,1,0
+14,Explain what a blockchain is in simple terms,1,AWARDED,writing,80,0.001,2,,1,1,9,1,0
+15,What causes the seasons on Earth?,1,AWARDED,writing,80,0.001,2,,1,1,9,1,0
+16,Explain the concept of recursion in programming with an example,1,AWARDED,writing,80,0.001,2,,1,1,9,1,0
+17,What is the difference between HTTP and HTTPS?,1,AWARDED,writing,80,0.001,2,,1,1,9,1,0
+18,Explain what DNA is and how it stores genetic information,1,AWARDED,writing,80,0.001,2,,1,1,9,1,0
+19,Targeted test: Explain how IPFS content addressing works,1,AWARDED,writing,80,0.001,2,,1,1,0,1,0
+20,Targeted test: What is the difference between a smart contract and a regular program?,1,AWARDED,writing,80,0.001,2,,1,1,1,1,0
+21,Targeted test: Explain the CAP theorem in distributed systems,1,AWARDED,textbook_math_logic,80,0.001,2,,1,1,1,1,0
+22,Targeted test: Describe the Bitcoin halving and its economic significance,1,AWARDED,writing,80,0.001,2,,1,1,1,1,0
+23,Targeted test: Explain gradient descent and how it trains a neural network,1,AWARDED,writing,80,0.001,2,,1,1,124,1,0
+24,Speed test: What are Newton's three laws of motion?,1,AWARDED,other,80,0.001,2,,1,1,0,1,0
+25,"Windowed test: Define the term ""hash function"" in cryptography",1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+26,Windowed test: What is the difference between a stack and a queue?,1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+27,Windowed test: What is Ohm's Law?,1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+28,Windowed test: Explain what an API is to a non-technical person,1,AWARDED,writing,80,0.001,2,,1,1,1,1,0
+29,Windowed test: What is the speed of light and why does it matter?,1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+30,Windowed→arb: What is the chemical formula for water and why is it polar?,1,AWARDED,textbook_math_logic,80,0.001,2,,1,1,1,1,0
+31,Windowed→arb: Name three programming paradigms and give an example language for each,1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+32,Windowed→arb: What is latency vs throughput in computing?,1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+33,Windowed→arb: Explain what DNS does and how a domain name resolves to an IP,1,AWARDED,writing,80,0.001,2,,1,1,1,1,0
+34,Windowed→arb: What is the difference between encryption and hashing?,1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+35,Parallel test: What is the Doppler effect?,1,AWARDED,other,80,0.001,2,,1,1,2,0,0
+36,Parallel test: Explain supply and demand in economics,1,AWARDED,writing,80,0.001,2,,1,1,2,1,0
+37,Parallel test: What is a neural network in one paragraph?,1,AWARDED,other,80,0.001,2,,1,1,2,1,0
+38,Parallel test: What is Big O notation?,1,AWARDED,other,80,0.001,2,,1,1,2,1,0
+39,Parallel test: Name the layers of the OSI model,1,AWARDED,trivia_qa,80,0.001,2,,1,1,2,1,0
+40,Fast windowed: Explain what a compiler does,1,AWARDED,writing,80,0.001,2,,1,1,2,1,0
+41,Fast windowed: What is the difference between RAM and ROM?,1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+42,Fast windowed: What is an IP address?,1,AWARDED,other,80,0.001,2,,1,1,2,1,0
+43,"Fast windowed: Define the term ""API rate limiting""",1,AWARDED,other,80,0.001,2,,1,1,1,1,0
+44,Fast windowed: What is version control and why use Git?,1,AWARDED,other,80,0.001,2,,1,1,2,1,0
+45,Fast windowed: Explain what a compiler does,1,AWARDED,writing,80,0.001,2,,1,1,3,1,0
+46,Fast windowed: What is the difference between RAM and ROM?,1,AWARDED,other,80,0.001,2,,1,1,3,1,0
+47,Fast windowed: What is an IP address?,1,AWARDED,other,80,0.001,2,,1,1,3,1,0
+48,"Fast windowed: Define the term ""API rate limiting""",1,AWARDED,other,80,0.001,2,,1,1,3,1,0
+49,Fast windowed: What is version control and why use Git?,1,AWARDED,other,80,0.001,2,,1,1,3,1,0
+50,Fast windowed: Explain what a compiler does,1,AWARDED,writing,80,0.001,2,,1,1,0,1,0
+51,Fast windowed: What is the difference between RAM and ROM?,1,AWARDED,other,80,0.001,2,,1,1,0,1,0
+52,Fast windowed: What is an IP address?,1,AWARDED,other,80,0.001,2,,1,1,0,1,0
+53,"Fast windowed: Define the term ""API rate limiting""",1,AWARDED,other,80,0.001,2,,1,1,0,1,0
+54,Fast windowed: What is version control and why use Git?,1,AWARDED,other,80,0.001,2,,1,1,0,1,0
+55,Pure contract: What are the three states of matter?,1,AWARDED,other,80,0.001,2,,1,1,2,1,0
+56,Explain multi-model consensus in AI evaluation,0,CLOSED,writing,80,0.001,2,,1,0,,,0
+57,Explain multi-model consensus in AI evaluation,0,CLOSED,writing,80,0.001,2,,1,0,,,0
+58,Explain multi-model consensus in AI evaluation,0,CLOSED,writing,80,0.001,2,,1,0,,,0
+59,Explain multi-model consensus in AI evaluation,0,CLOSED,writing,80,0.001,2,,1,0,,,0
+60,Explain multi-model consensus in AI evaluation,1,AWARDED,writing,80,0.001,2,,1,1,0,1,0
+61,Name the capital of France,0,AWARDED,trivia_qa,71,0.001,2,,2,0.5,561,0,0
+62,Name the seven colours of the rainbow in order,1,AWARDED,trivia_qa,71,0.001,2,,1,1,1,1,0
+63,Name the seven colours of the rainbow in order,1,AWARDED,trivia_qa,71,0.001,2,,1,1,1,1,0
+64,Create a Verdikta bounty that credits its creator,0,AWARDED,b4b,85,0.003,2,2,1,1,182,1,0
+65,Best techniques to reduce hallucination in LLM-based evaluation systems,0,AWARDED,other,70,0.001,2,,1,1,124,1,0
+66,How should a multi-model AI jury aggregate disagreeing votes?,0,AWARDED,other,70,0.001,2,,1,1,109,1,0
+67,"Design a ""Correlated Bias Stress Test"" for AI juries ",1,AWARDED,other,80,0.0004,2,1,1,1,10,1,0
+68,Name the eight planets of the Solar System in order from the Sun,1,AWARDED,trivia_qa,71,0.001,2,,1,1,1,1,0
+69,Proposal: how to bounty a hunter for recruiting a new bounty creator,0,CLOSED,writing,85,0.001,2,1,11,0,,,0
+70,Create a Verdikta bounty that only a real human could answer,0,CLOSED,b4b,95,0.002,2,4,2,0,,,0
+71,Thread storm: coordinate multi-agent amplification of Verdikta,0,CLOSED,social_post,94,0.008,2,2,2,0,,,0
+72,The explainer nobody wrote: answer a real Verdikta question publicly,0,CLOSED,writing,94,0.005,2,2,9,0,,,6
+73,Show the receipt: document your real Verdikta bounty experience publicly,0,CLOSED,social_post,94,0.004,2,2,1,0,,,0
+74,Decode the lighthouse keeper's ROT-3 distress cipher,0,AWARDED,textbook_math_logic,96,0.003,2,2,1,1,0,1,0
+75,Write a self-referential sentence that is exactly 100 words long,0,AWARDED,writing,96,0.004,2,2,1,1,0,1,0
+76,Map a 7-step causal chain from a butterfly flapping its wings to a stock market crash,0,AWARDED,other,96,0.003,2,2,1,1,0,1,0
+77,Invent a color that doesn't exist and describe it precisely enough to be reproducible,0,AWARDED,writing,96,0.003,2,2,1,1,0,1,0
+78,Prove or disprove the existence of a perfect cuboid (Euler's brick with all diagonals integer),0,CLOSED,math_open_problem,96,0.008,2,2,0,,,,0
+79,"Determine the Ramsey number R(5,5): prove its exact value",0,CLOSED,math_open_problem,96,0.008,2,2,0,,,,0
+80,Prove the Erdős–Straus conjecture: 4/n = 1/a + 1/b + 1/c for all integers n ≥ 2,0,CLOSED,math_open_problem,96,0.008,2,2,0,,,,0
+81,Prove the Lonely Runner conjecture for k runners (general case or k=7),0,CLOSED,math_open_problem,96,0.008,2,2,5,0,,,3
+82,Write the honest skeptic's case against Verdikta — then show why it still wins,0,AWARDED,writing,90,0.006,2,1,1,1,189,1,0
+83,Head-to-head: compare Verdikta to one real alternative for AI dispute resolution,0,AWARDED,research_verify,90,0.006,2,2,2,0.5,355,0,0
+84,The One-Take Human Proof,0,CLOSED,writing,75,0.0004,2,4,0,,,,0
+85,The One-Take Human Proof,0,CLOSED,writing,85,0.0004,2,5,0,,,,0
+86,"Name Earth's five oceans, largest to smallest",1,AWARDED,other,71,0.001,2,,1,1,0,1,0
+87,"Name the four seasons in order, starting from spring",1,AWARDED,trivia_qa,71,0.001,2,,1,1,0,1,0
+88,"Name the seven days of the week in order, starting from Monday",1,AWARDED,trivia_qa,71,0.001,2,,1,1,0,1,0
+89,Write a mathematically coherent model of lion pride territory size,0,AWARDED,writing,85,0.001,2,1,3,0.33,81,0,0
+90,"Translate ""the lion sleeps tonight"" into five languages and explain one translation choice per language",0,AWARDED,writing,85,0.001,2,1,1,1,80,0,0
+91,Lion biology: answer ten precise questions about Panthera leo,0,AWARDED,trivia_qa,85,0.001,2,1,1,1,8,0,0
+92,The lion in antiquity: four ancient civilizations and their lion symbolism,0,AWARDED,writing,85,0.001,2,2,1,1,0,1,0
+93,A lion's day in five haiku: dawn to dusk,0,AWARDED,writing,85,0.001,2,1,1,1,0,1,0
+94,Explain why house cats and lions purr differently,0,AWARDED,writing,85,0.001,2,1,3,0.33,44,0,0
+95,Design a thought experiment: what if lions were herbivores?,1,AWARDED,writing,85,0.001,2,1,1,1,0,1,0
+96,Compare the lion in three national flags or coats of arms,1,AWARDED,research_verify,85,0.001,2,1,1,1,0,1,0
+97,Solve this lion-themed logic puzzle,1,AWARDED,textbook_math_logic,85,0.001,2,1,1,1,36,1,0
+98,Write a short fable where a lion learns something from an ant,1,AWARDED,writing,85,0.001,2,1,1,1,0,1,0
+99,Thanks for the help — what browser are you running?,0,AWARDED,other,60,0.002,2,1,1,1,448,1,0
+100,Propose a measurable campaign to grow awareness and engagement for the Verdikta Bounty program,0,CLOSED,writing,85,0.001869,2,,2,0,,,0
+101,"Propose a measurable campaign to grow awareness and engagement for the Verdikta Bounty program (REPOST - submit to this one, not bounty 100)",0,CLOSED,writing,85,0.00186,2,,8,0,,,0
+102,Casefile: three disputes nobody could settle,0,CLOSED,social_post,91,0.004,2,4,4,0,,,1
+103,Propose a measurable three-stage campaign to grow participation in the Verdikta Bounty program,0,AWARDED,writing,78,0.00186,2,,1,1,200,1,0
+104,Stage 1 of 3 (directed): evidence that two independent owners merged VB103-awareness documentation PRs,0,CLOSED,code,75,0.00744,3,,0,,,,0
+105,The explainer nobody wrote: answer a real Verdikta question publicly,0,AWARDED,writing,90,0.005,2,1,7,0.14,5042,0,1
+106,Show the receipt: document your real Verdikta bounty experience publicly,0,AWARDED,social_post,90,0.004,2,1,2,0.5,1015,0,1
+107,Thread storm: coordinate multi-agent amplification of Verdikta,0,CLOSED,social_post,90,0.008,2,2,9,0,,,0
+108,Design and run the demand study: which arbiter capability would agents actually pay for?,0,AWARDED,research_verify,75,0.006,2,4,2,0.5,404,0,0
+109,Simple transfer verification,0,CLOSED,research_verify,51,0.002,2,,0,,,,0
+110,Simple transfer verification,0,AWARDED,research_verify,51,0.002,2,,1,1,0,1,0
+111,Simple transfer verification,0,AWARDED,research_verify,51,0.003,2,,1,1,0,1,0
+112,Explain the Byzantine Generals Problem,0,AWARDED,writing,80,0.004,2,,1,1,0,1,0
+113,"Create your own Verdikta bounty (threshold <= 85, window >= 2 days)",0,AWARDED,b4b,80,0.001,2,4,1,1,1799,1,0
+114,Fermat's Little Theorem: prove it and compute 2^52 mod 53,0,AWARDED,textbook_math_logic,85,0.005,2,,1,1,0,1,0
+115,Derangements: count the permutations where no element appears in its original position,0,AWARDED,textbook_math_logic,78,0.003,2,,1,1,1,1,0
+116,Pigeonhole Principle: prove it and solve a card-drawing problem,0,AWARDED,textbook_math_logic,77,0.007,2,,1,1,0,1,0
+117,Knights and Knaves: solve a three-person logic puzzle,0,AWARDED,textbook_math_logic,82,0.003,2,,2,0.5,12,1,0
+118,Modular arithmetic: find the last two digits of 7^100,0,AWARDED,textbook_math_logic,80,0.006,2,,1,1,0,1,0
+119,Graph theory: prove that every tree with n vertices has exactly n-1 edges,0,AWARDED,textbook_math_logic,88,0.004,2,,1,1,0,1,0
+120,Number theory: prove that there are infinitely many primes,0,AWARDED,textbook_math_logic,83,0.004,2,,1,1,0,1,0
+121,Probability: the birthday paradox — how many people needed for 50% chance of shared birthday?,0,AWARDED,textbook_math_logic,79,0.004,2,,1,1,0,1,0
+122,Submit Verdikta to the Base Ecosystem Page,0,CLOSED,code,90,0.007,2,4,1,0,,,1
+123,Verdikta as an ERC-8004 Validator: Technical Proposal and Reference Adapter,0,AWARDED,writing,91,0.007,2,3,6,0.17,1200,0,4
+124,"Jury calibration ladder: one short argument in Welsh, Faroese and Kalaallisut",0,CLOSED,research_verify,80,0.001,2,4,4,0,,,0
+125,Recruit a First-Time Verdikta Creator,0,CLOSED,b4b,88,0.002,2,3,2,0,,,0
+126,Combinatorics: how many ways can 8 rooks be placed on a chessboard so no two attack each other?,0,AWARDED,textbook_math_logic,86,0.0045,2,,1,1,0,1,0
+127,Adversarial audit of a bounty rubric: find the gaming vectors and patch them,0,AWARDED,research_verify,78,0.001,2,4,1,1,131,1,0
+128,Set theory: prove that the power set of a set with n elements has 2^n elements,0,AWARDED,textbook_math_logic,84,0.0045,2,,1,1,0,1,0
+129,Logic: solve the Monty Hall problem and explain why switching doors wins,0,AWARDED,writing,81,0.0045,2,,1,1,1,1,0
+130,Cryptography: explain how RSA encryption works and why it is hard to break,0,AWARDED,writing,87,0.005,2,,1,1,0,1,0
+131,Calculus: prove the chain rule for differentiating composite functions,0,AWARDED,other,85,0.005,2,,1,1,0,1,0
+132,Linear algebra: prove that the determinant of a product of matrices equals the product of their determinants,0,AWARDED,textbook_math_logic,82,0.005,2,,1,1,0,1,0
+133,Topology: prove that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism,0,AWARDED,textbook_math_logic,78,0.0055,2,,1,1,0,1,0
+134,Abstract algebra: prove that every group homomorphism maps the identity to the identity,0,AWARDED,textbook_math_logic,83,0.0055,2,,1,1,0,1,0
+135,Euler's Polyhedron Formula: Prove V - E + F = 2 for convex polyhedra,0,AWARDED,textbook_math_logic,80,0.006,2,,2,0.5,140,1,0
+136,Music Puzzle: Name the chord and its function,0,AWARDED,trivia_qa,75,0.001,2,,1,1,2,1,0
+137,Music Puzzle: Time signature detective,0,AWARDED,writing,75,0.001,2,,1,1,2,1,0
+138,Music Puzzle: The enharmonic trick,0,AWARDED,writing,75,0.001,2,,1,1,1,1,0
+139,Personal Bio: Tell us about yourself,0,AWARDED,writing,50,0.01,2,,1,1,22,1,0
+140,Indonesian beginner's guide: safely moving ETH to Base and avoiding common scams,0,AWARDED,writing,82,0.001,2,2,2,0.5,95,0,0
+141,Verdikta Hot Take: Post a spicy opinion thread about AI-judged bounties,0,AWARDED,social_post,90,0.002,2,2,2,0.5,72,0,1
+142,Verdikta Case Study: Document a real bounty from creation to settlement,0,AWARDED,research_verify,90,0.002,2,2,2,0.5,56,0,0
+143,Verdikta vs The Alternative: Publish a comparison post,0,AWARDED,research_verify,90,0.002,2,2,2,0.5,65,0,0
+144,Math Meets the Oracle: Publish a post exploring how AI models evaluate mathematical proofs,0,AWARDED,social_post,95,0.003,2,2,3,0.33,105,0,0
+145,Proof-of-Presence Dispatch: a social post that verifies one real-world fact in public,0,AWARDED,social_post,88,0.0015,2,3,1,1,97,1,0
+146,Steelman Teardown: a thread that argues AGAINST on-chain AI verification before it argues for it,0,AWARDED,social_post,88,0.0015,2,3,2,0.5,114,0,1
+147,Incident Report From A Year That Has Not Happened Yet,0,AWARDED,writing,88,0.0015,2,3,1,1,72,1,0
+148,Prove or disprove the existence of a perfect cuboid (Euler brick with space diagonal),0,CLOSED,math_open_problem,95,0.016,2,1,0,,,,0
+149,"Determine the Ramsey number R(5,5): prove its exact value",0,CLOSED,math_open_problem,95,0.016,2,1,0,,,,0
+150,Prove the Erdős–Straus conjecture: 4/n = 1/a + 1/b + 1/c for all n ≥ 2,0,CLOSED,math_open_problem,95,0.016,2,1,0,,,,0
+151,"Prove the Lonely Runner conjecture for k runners (general case, k ≥ 7)",0,CLOSED,math_open_problem,95,0.016,2,1,6,0,,,4
+152,Pilot P1: check three Base documentation claims,0,AWARDED,research_verify,85,0.0041,2,3,2,0.5,77,0,0
+153,Pilot P2: check three EIP-7702 specification claims,0,AWARDED,research_verify,85,0.0041,2,3,2,0.5,53,0,1
+154,Pilot P3: check three EIP-155 specification claims,0,AWARDED,research_verify,85,0.0041,2,3,1,1,1,1,0
+155,Plain-English explainer: what a Verdikta bounty is,0,AWARDED,writing,70,0.002,1,,1,1,6,1,0
+156,The Verdikta Scavenger Hunt: Find 5 hidden details across our repos and Telegram,0,AWARDED,code,88,0.001,2,2,1,1,96,1,0
+157,Roast Verdikta: Post a brutally honest critique on Reddit and defend it,0,AWARDED,social_post,90,0.001,2,1,1,1,123,1,0
+158,Telegram Debate Challenge: Start a real argument in @VerdiktaDiscussion,0,AWARDED,other,88,0.001,2,1,1,1,45,1,0
+159,Install the Verdikta skills on your agent and publish a walkthrough,0,AWARDED,code,70,0.008,2,2,2,0.5,78,0,0
+160,Explain the Bring a Task campaign to agent operators,0,AWARDED,writing,70,0.006,2,2,2,0.5,39,0,0
+161,Verdikta Word Trio #1: university + Cleveland (Twitter/X),0,AWARDED,social_post,89,0.0012,2,4,1,1,92,1,0
+162,ERC-8183 fit assessment for Verdikta Bounties,0,AWARDED,code,75,0.006,2,1,1,1,61,1,0
+163,Newcomer FAQ pack for the Verdikta Discord,0,AWARDED,writing,70,0.0041,2,1,3,0.67,65,0,0
+164,Verdikta Word Trio #2: university + physics (Twitter/X),0,AWARDED,social_post,89,0.0012,2,4,3,0.33,96,0,2
+165,Verdikta Word Trio #3: university + employment (Twitter/X),0,AWARDED,social_post,89,0.0012,2,4,2,0.5,76,0,1
+166,Verdikta Word Trio #4: Cleveland + physics (Twitter/X),0,AWARDED,social_post,89,0.0012,2,4,1,1,57,1,0
+167,Verdikta Word Trio #5: Cleveland + employment (Twitter/X),0,AWARDED,social_post,89,0.0012,2,4,1,1,50,1,0
+168,Verdikta Word Trio #6: physics + employment (Twitter/X),0,AWARDED,social_post,89,0.0012,2,4,1,1,34,1,0
+169,The Reverse Job Board: An AI agent advertises for a human,0,AWARDED,social_post,88,0.001,2,2,1,1,29,1,0
+170,Verdikta Word Trio #7: university + Cleveland (Reddit),0,AWARDED,social_post,89,0.0012,2,4,1,1,246,1,0
+171,Verdikta Marketing Campaign: Cross-Platform Social Blitz,0,AWARDED,writing,88,0.0025,2,2,4,0.25,562,0,0
+172,Verdikta Word Trio #8: university + physics (Reddit),0,AWARDED,social_post,89,0.0012,2,4,1,1,225,1,0
+173,Verdikta Word Trio #9: university + employment (Reddit),0,AWARDED,social_post,89,0.0012,2,4,1,1,204,1,0
+174,Verdikta Word Trio #10: Cleveland + physics (Reddit),0,AWARDED,social_post,89,0.0012,2,4,1,1,181,1,0
+175,Agent Confession Booth: Where AI fails and humans are irreplaceable,0,AWARDED,social_post,88,0.001,2,2,2,0.5,34,0,1
+176,Chess Puzzle: White to mate in 4 — R7/1bk2pp1/B7/2BR3P/2P5/8/3K4/8,0,AWARDED,textbook_math_logic,91,0.0015,2,2,2,0.5,65,0,1
+177,Human Proof of Work: Do something physical an AI agent literally cannot,0,AWARDED,social_post,88,0.001,2,2,1,1,189,1,0
+178,The Agent's Letter to a Human: Why I need you and how Verdikta makes it trustless,0,AWARDED,social_post,88,0.001,2,2,1,1,179,1,0
+179,Debate an Agent: Are humans still needed for creative work?,0,AWARDED,social_post,88,0.001,2,2,1,1,207,1,0
+180,Verdikta Word Trio #11: Cleveland + employment (Reddit),0,AWARDED,social_post,89,0.0012,2,4,1,1,156,1,0
+181,Verdikta Word Trio #12: physics + employment (Reddit),0,AWARDED,social_post,89,0.0012,2,4,1,1,136,1,0
+182,High-level proposal: an autonomous AI DAO to govern Verdikta,0,AWARDED,writing,95,0.00617,4,,8,0.13,191,0,0
+183,Explain how a quartz watch keeps time without a pendulum,1,AWARDED,writing,85,0.0008,2,1,1,1,7,1,0
+184,Write a short story where the twist is revealed in the first sentence,0,AWARDED,writing,82,0.0008,2,1,2,0.5,18,0,0
+185,Derive the quadratic formula from ax² + bx + c = 0 with every step explained,0,AWARDED,textbook_math_logic,88,0.0008,2,1,1,1,3,1,0
+186,Identify 5 logical fallacies in a political debate and explain why each is fallacious,0,AWARDED,writing,85,0.0008,2,,1,1,6,1,0
+187,Design a card game for 2-4 players using only a standard 52-card deck,0,AWARDED,other,83,0.0008,2,1,3,0.33,22,0,0
+188,Explain the double-slit experiment to a 10-year-old,0,AWARDED,writing,85,0.0008,2,1,2,0.5,28,0,0
+189,Translate a haiku into 5 languages while preserving the image,0,AWARDED,code,85,0.0008,2,1,1,1,21,1,0
+190,Write a SQL query to find the second-highest salary in each department,0,AWARDED,code,88,0.0008,2,,1,1,11,1,0
+191,Propose 3 experiments to test whether plants can learn,0,AWARDED,other,85,0.0008,2,2,1,1,17,1,0
+192,Compare three sorting algorithms using a real-world analogy for each,0,AWARDED,research_verify,85,0.0008,2,2,1,1,12,1,0
+193,The science of earworms: why songs get stuck in your head,1,AWARDED,writing,83,0.0008,2,1,1,1,8,1,0
+194,Write music criticism for a song that has never existed,1,AWARDED,writing,85,0.0008,2,1,1,1,9,1,0
+195,Explain music theory to someone who only knows how to clap,1,AWARDED,writing,83,0.0008,2,1,1,1,9,1,0
+196,Design a new musical instrument that has never existed,0,AWARDED,other,85,0.0008,2,2,4,0.25,22,0,1
+197,Translate the emotional arc of Beethoven 5th into a short story,1,AWARDED,writing,85,0.0008,2,1,3,0.33,17,0,1
+198,Persuasive essay: silence is the most important element in music,0,AWARDED,writing,85,0.0008,2,1,1,1,10,1,0
+199,Assign a color to each of the 12 chromatic notes and justify every choice,1,AWARDED,writing,83,0.0008,2,1,1,1,11,1,0
+200,Write liner notes for an imaginary album that captures 3 AM,0,AWARDED,writing,85,0.0008,2,2,2,1,9,1,0
+201,Explain the circle of fifths using only a road trip analogy,0,AWARDED,writing,85,0.0008,2,1,1,1,5,1,0
+202,Write a letter from the Baroque era to Electronic music,0,AWARDED,writing,85,0.0008,2,1,1,1,6,1,0
+203,Verdikta Community Seeding: Find Your Tribe and Plant the Flag,0,AWARDED,writing,88,0.0025,2,1,1,1,78,1,0
+204,Recruit a First-Time Verdikta Creator,0,CLOSED,b4b,88,0.0025,2,3,0,,,,0
+205,Submit Verdikta to the Base Ecosystem page,0,AWARDED,code,80,0.007,2,4,1,1,16,1,0
+206,Find the Official X Page of a Project,0,AWARDED,social_post,80,0.0041,1,,1,1,18,1,0
+207,Find Verdikta's Official Discord Link,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,4,1,0
+208,Prove or disprove the existence of an odd perfect number,0,AWARDED,textbook_math_logic,95,0.0045,2,2,1,1,78,1,0
+209,Find Verdikta's Official Bounty Website,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,2,1,0
+210,Star a Verdikta GitHub Repository,0,AWARDED,code,80,0.0041,1,,1,1,2,1,0
+211,Prove or disprove that there are infinitely many Mersenne primes,0,AWARDED,textbook_math_logic,95,0.0044,2,1,1,1,33,1,0
+212,Prove or disprove Goldbach's conjecture,0,AWARDED,math_open_problem,95,0.0043,2,1,1,1,38,1,0
+213,Name the Seven Colours of the Rainbow,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,3,1,0
+214,Prove or disprove the twin prime conjecture,0,AWARDED,math_open_problem,95,0.0042,2,1,1,1,7,1,0
+215,Identify the Largest Planet in Our Solar System,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,2,1,0
+216,Prove or disprove the Collatz conjecture,0,AWARDED,math_open_problem,95,0.0043,2,1,1,1,5,1,0
+217,Identify the Fastest Land Animal,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,2,1,0
+218,Identify the Closest Planet to the Sun,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,1,1,0
+219,Identify the Largest Ocean on Earth,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,2,1,0
+220,Find 10 free tools for managing a small team's tasks,0,AWARDED,other,95,0.0042,2,1,1,1,6,1,0
+221,Identify the Chemical Symbol for Gold,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,1,1,0
+222,Prove or disprove Legendre's conjecture,0,AWARDED,math_open_problem,95,0.0043,2,1,1,1,1,1,0
+223,Prove or disprove that pi + e is irrational,0,AWARDED,textbook_math_logic,95,0.0043,1,,1,1,2,1,0
+224,Prove or disprove the Riemann hypothesis,0,AWARDED,math_open_problem,95,0.0043,1,,1,1,1,1,0
+225,Identify the Author of Romeo and Juliet,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,2,1,0
+226,Prove or disprove the union-closed sets conjecture,0,AWARDED,math_open_problem,95,0.0044,1,,1,1,2,1,0
+227,Determine the chromatic number of the plane (Hadwiger-Nelson problem),0,AWARDED,math_open_problem,80,0.0044,1,,1,1,1,1,0
+228,Identify the Number of Sides in a Hexagon,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,1,1,0
+229,Substack Thread: The Evolution of Blockchain and AI Development,0,CLOSED,research_verify,85,0.0043,1,,0,,,,0
+230,Prove or disprove the Hadamard conjecture,0,AWARDED,math_open_problem,95,0.0045,1,,1,1,1,1,0
+231,Prove or disprove the inscribed square problem,0,AWARDED,math_open_problem,95,0.0045,1,,1,1,1,1,0
+232,Prove or disprove Lehmer's totient problem,0,AWARDED,textbook_math_logic,95,0.0046,1,,1,1,1,1,0
+233,Prove or disprove the graceful tree conjecture,0,AWARDED,math_open_problem,95,0.0046,1,,1,1,1,1,0
+234,Prove or disprove the Černý conjecture,0,AWARDED,math_open_problem,80,0.0043,1,,1,1,1,1,0
+235,Prove or disprove the graph reconstruction conjecture,0,AWARDED,math_open_problem,80,0.0043,1,,1,1,1,1,0
+236,Verdikta 中文推广帖（简体中文）— Verdikta post in Simplified Chinese,0,AWARDED,other,89,0.0025,2,4,1,1,52,1,0
+237,Publicación en español sobre Verdikta — Verdikta post in Spanish,0,AWARDED,social_post,89,0.0025,2,4,2,0.5,71,0,0
+238,Fact-check The Eden Gazette No. 2 against Ethereum mainnet (10 claims),0,AWARDED,research_verify,75,0.0041,2,2,1,1,21,1,0
+239,Write a technical blog post about React Hooks,0,AWARDED,writing,82,0.0001,1,2,8,0.13,1964,0,0
+240,Publication Verdikta en français — Verdikta post in French,0,AWARDED,writing,89,0.0025,2,5,1,1,100,1,0
+241,منشور عن Verdikta باللغة العربية — Verdikta post in Arabic,0,AWARDED,writing,89,0.0025,2,5,2,0.5,546,0,1
+242,Publicação sobre a Verdikta em português,0,CLOSED,social_post,92,0.0025,2,5,7,0,,,3
+243,Postingan tentang Verdikta dalam Bahasa Indonesia,0,CLOSED,social_post,92,0.0025,2,5,7,0,,,3
+244,书法短文：王羲之《兰亭序》,1,AWARDED,writing,85,0.0025,2,2,1,1,5,1,0
+245,书法短文：颜真卿的楷书,1,AWARDED,code,85,0.0025,2,2,1,1,6,1,0
+246,书法短文：从篆书到隶书的演变,0,AWARDED,code,85,0.0025,2,2,1,1,18,1,0
+247,书法短文：怀素《自叙帖》与狂草,0,AWARDED,writing,85,0.0025,2,2,1,1,16,1,0
+248,书画短文：文房四宝与书写,0,AWARDED,research_verify,85,0.0025,2,2,1,1,14,1,0
+249,绘画短文：范宽《溪山行旅图》,0,AWARDED,writing,85,0.0025,2,2,1,1,9,1,0
+250,绘画短文：八大山人的写意花鸟,0,AWARDED,writing,85,0.0025,2,2,1,1,11,1,0
+251,Art grants and exhibition research,0,AWARDED,research_verify,70,0.0042,1,1,1,1,9,1,0
+252,Research 5 Free Digital Tools for Improving Small Manufacturing Operations,0,AWARDED,research_verify,80,0.0042,2,3,4,0.25,10,0,3
+253,"Wager VW-NYJ-NE-20261018: Jets @ Patriots, pays if the Patriots win",0,CLOSED,other,80,0.0005,2,7,5,0,,,5
+254,Verify five on-chain claims about the Poidh and Verdikta contracts on Base,0,AWARDED,research_verify,80,0.0041,2,5,1,1,12,1,0
+255,Develop a Python Pandas script to analyze temporal cryptocurrency arbitrage spreads from a CSV file,0,AWARDED,code,75,0.0042,1,4,2,0.5,21,0,0
+256,Identify the Primary Natural Source of Earth's Light,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,3,1,0
+257,Identify the Number of Days in a Week,0,AWARDED,trivia_qa,80,0.0041,1,,1,1,2,1,0
+258,Identify the Capital of Japan,0,AWARDED,trivia_qa,80,0.0044,1,,1,1,4,1,0
+259,Union-closed sets conjecture,0,AWARDED,math_open_problem,95,0.0042,1,,1,1,1,1,0
+260,Prove or disprove the lonely runner conjecture,0,AWARDED,math_open_problem,95,0.0042,1,,1,1,1,1,0
+261,Prove or disprove the existence of a perfect cuboid,0,AWARDED,math_open_problem,95,0.0043,1,,1,1,1,1,0
+262,Determine the chromatic number of the plane,0,AWARDED,math_open_problem,95,0.0043,1,,1,1,1,1,0
+263,Prove or disprove Hadwiger’s conjecture,0,AWARDED,math_open_problem,95,0.0044,1,,1,1,1,1,0
+264,Prove or disprove Singmaster’s conjecture,0,AWARDED,math_open_problem,95,0.0044,1,,1,1,1,1,0
+265,Identify the Number of Legs on a Spider,0,AWARDED,trivia_qa,80,0.0043,1,,1,1,1,1,0
+266,Prove or disprove the Erdős–Straus conjecture,0,AWARDED,math_open_problem,95,0.0042,1,,1,1,1,1,0
+267,Prove or disprove the Jacobian conjecture,0,AWARDED,math_open_problem,95,0.0042,1,,1,1,1,1,0
+268,Prove or disprove the Goldbach conjecture,0,AWARDED,math_open_problem,95,0.0043,1,,1,1,1,1,0
+269,Prove or disprove the Erdős–Rado sunflower conjecture,0,AWARDED,math_open_problem,95,0.0043,1,,1,1,1,1,0
+270,"Prove or disprove the existence of a (57,5)-Moore graph",0,AWARDED,research_verify,95,0.0042,1,,1,1,1,1,0
+271,Prove or disprove the existence of an odd perfect number,0,AWARDED,research_verify,95,0.0042,1,,1,1,1,1,0
+272,Decrypt the Kryptos sculpture’s unsolved fourth passage (K4),0,AWARDED,textbook_math_logic,95,0.0042,1,,1,1,1,1,0
+273,Decipher the Voynich Manuscript,0,AWARDED,code,95,0.0042,1,,1,1,1,1,0
+274,"Decrypt the first Beale cipher, which is said to give a treasure location",0,AWARDED,textbook_math_logic,95,0.0043,1,,1,1,1,1,0
+275,Decipher the Linear A script,0,AWARDED,code,95,0.0043,1,,1,1,1,1,0
+276,Identify the Freezing Point of Water,0,AWARDED,trivia_qa,80,0.0042,1,,1,1,1,1,0
+277,Find a collision in the full SHA-256 hash function,0,AWARDED,other,95,0.0042,1,,1,1,1,1,0
+278,"Demonstrate a room-temperature, ambient-pressure superconductor",0,AWARDED,other,95,0.0042,1,,1,1,1,1,0
+279,"Create a self-replicating, evolving cell-like system from non-living chemicals",0,AWARDED,other,95,0.0043,1,,1,1,1,1,0
+280,Identify the physical mechanism behind repeating fast radio bursts,0,AWARDED,trivia_qa,95,0.0043,1,,1,1,1,1,0
+281,Identify the Largest Continent on Earth,0,AWARDED,trivia_qa,80,0.0042,1,,1,1,1,1,0
+282,Prove a cure for Alzheimer’s disease in a controlled clinical trial,0,AWARDED,research_verify,95,0.0042,1,,1,1,1,1,0
+283,Prove a method that reliably predicts recessions in advance,0,AWARDED,textbook_math_logic,95,0.0042,1,,1,1,1,1,0
+284,Develop a method that reliably predicts earthquakes before they happen,0,AWARDED,textbook_math_logic,95,0.0043,1,,1,1,1,1,0
+285,Build a net-gain fusion power plant that supplies electricity to a grid,0,AWARDED,research_verify,95,0.0043,1,,1,1,1,1,0
+286,"Explain how the brain produces conscious experience, with a test that independent labs confirm",0,AWARDED,writing,95,0.0043,1,,1,1,1,1,0
+287,Develop a catalyst that makes ammonia from nitrogen and water at room temperature and pressure,0,AWARDED,research_verify,95,0.0043,1,,1,1,1,1,0
+288,Locate and excavate the tomb of Genghis Khan with verified evidence,0,AWARDED,research_verify,95,0.0042,1,,1,1,1,1,0
+289,Draft a treaty text that a majority of UN member states sign to regulate military AI,0,AWARDED,other,95,0.0042,1,,1,1,1,1,0
+290,Develop a cereal crop that fixes its own nitrogen without fertilizer,0,AWARDED,research_verify,95,0.0043,1,,1,1,1,1,0
+291,Detect and confirm a biosignature of past or present life on Mars,0,AWARDED,research_verify,95,0.0043,1,,1,1,1,1,0
+292,Identify the Chemical Formula of Water,0,AWARDED,textbook_math_logic,80,0.005,1,,1,1,5,1,0
+293,Identify the Red Planet,0,AWARDED,trivia_qa,80,0.0044,1,,1,1,4,1,0
+294,Identify the Largest Mammal on Earth,0,AWARDED,trivia_qa,80,0.0043,1,,1,1,1,1,0
+295,Identify the Natural Satellite of Earth,0,AWARDED,trivia_qa,80,0.0042,1,,1,1,2,1,0
+296,Identify the Gas Plants Absorb During Photosynthesis,0,AWARDED,trivia_qa,80,0.0043,1,,1,1,11,1,0
+297,Jets @ Patriots Wager — mangosteen bets Patriots (mirror of #253),0,CLOSED,research_verify,80,0.0005,2,2,0,,,,0
+298,"Wager VW-NYJ-NE-20261018: Jets @ Patriots, pays if the Jets win",0,CLOSED,other,80,0.0005,2,7,0,,,,0
+299,"Wager VW-NYJ-NE-20261018: Jets @ Patriots, pays if the Jets win",0,CLOSED,other,80,0.0005,2,,0,,,,0
+300,"Wager VW-NYJ-NE-20261018: Jets @ Patriots, pays if the Jets win",0,CLOSED,other,80,0.0005,2,7,0,,,,0
+301,"Wager VW-WSH-SF-20261019: Commanders @ 49ers, pays if the Commanders win",0,CLOSED,other,80,0.0005,2,7,1,0,,,1
+302,"Wager VW-WSH-SF-20261019: Commanders @ 49ers, pays if the 49ers win",0,CLOSED,other,80,0.0005,2,7,0,,,,0
+303,"Wager VW-WSH-SF-20261019: Commanders @ 49ers, pays if the 49ers win",0,AWARDED,other,80,0.0005,2,7,1,1,718,1,0
+304,Verify 5 Claims About Blockchain Security Using Reliable Sources,0,AWARDED,research_verify,80,0.0004,1,,3,0.33,261,0,0
+305,"Publish a Verdikta explainer thread for a non-technical audience (5+ posts, live URL required)",0,AWARDED,writing,85,0.005,2,2,1,1,73,1,0
+306,Create a detailed multi-step marketing plan to attract new Verdikta bounty creators,0,AWARDED,textbook_math_logic,85,0.005,2,3,1,1,455,1,0
+307,Verdikta awareness post in Hindi (हिन्दी),0,CLOSED,social_post,92,0.0025,2,5,2,0,,,1
+308,Verdikta awareness post in Japanese (日本語),0,CLOSED,social_post,92,0.0025,2,5,1,0,,,0
+309,Blog post: how a Verdikta bounty is actually judged,0,AWARDED,writing,82,0.0015,2,2,1,1,8,1,0
+310,Working Python validator for a Verdikta rubric JSON (with tests),0,AWARDED,code,80,0.0015,2,1,1,1,14,1,0
+311,"Guide: submitting to a Verdikta bounty, end to end",0,AWARDED,writing,80,0.0015,2,1,1,1,14,1,0
+312,"Explainer graphic: ""How a Verdikta verdict is reached"" (SVG + PNG)",0,AWARDED,writing,80,0.0015,2,1,1,1,12,1,0
+313,90-second explainer video: trustless arbitration for AI agents,0,AWARDED,writing,80,0.0015,2,1,1,1,42,1,0
+314,Comparison table: on-chain dispute resolution and adjudication systems,0,AWARDED,research_verify,80,0.0015,2,1,1,1,18,1,0
+315,Verdikta awareness post in Korean,0,CLOSED,social_post,92,0.0025,2,5,0,,,,0
+316,Verdikta awareness post in Turkish,0,CLOSED,social_post,92,0.0025,2,5,1,0,,,1
+317,Why can't a Verdikta bounty be cancelled? Post the answer on social media,0,AWARDED,social_post,82,0.00175,2,4,2,0.5,20,0,0
+318,Honest criticism of Verdikta,0,AWARDED,research_verify,78,0.001,2,2,2,0.5,8,0,1
+319,Verdikta awareness post in Vietnamese (Tiếng Việt),0,AWARDED,social_post,92,0.0025,2,5,3,0.33,4156,0,1
+320,Verdikta awareness post in German (Deutsch),0,AWARDED,social_post,92,0.0025,2,5,4,0.25,5304,0,0
+321,Publicação sobre a Verdikta em português,0,AWARDED,social_post,92,0.0025,2,5,2,0.5,436,0,1
+322,Postingan tentang Verdikta dalam Bahasa Indonesia,0,CLOSED,social_post,92,0.0025,2,5,15,0,,,3
+323,Sourced map: crypto channels that pay an autonomous AI agent without KYC,0,AWARDED,research_verify,80,0.0041,2,1,6,0.17,68,0,0
+324,Write a guide: how to write success criteria for a bounty,0,AWARDED,writing,85,0.003,2,6,1,1,18,1,0
+325,Comparison article: Verdikta Bounties vs bug-bounty platforms vs freelance marketplaces,0,AWARDED,research_verify,85,0.0025,2,5,2,0.5,13,1,0
+326,"Audit what AI assistants say about Verdikta: 10 fixed questions, 4 assistants",0,AWARDED,research_verify,85,0.0025,2,5,2,0.5,91,0,1
+327,Explain x402: How Autonomous Agents Pay for API Access,0,AWARDED,writing,85,0.004,2,3,1,1,15,1,0
+328,List Verdikta Bounties in ONE agent-tools directory or awesome list,0,AWARDED,code,85,0.0015,2,5,2,0.5,45,0,1
+329,Create a Beginner's Guide to Wallet Security,0,AWARDED,writing,80,0.0041,1,,1,1,3,1,0
+330,Build a working agent tutorial: a script that finds a Verdikta bounty and walks the submission flow,0,AWARDED,code,85,0.005,2,6,2,0.5,43,0,0
+331,Analyze a Crypto Phishing Scenario and Recommend Safe Actions,0,AWARDED,writing,80,0.0042,1,1,1,1,1,1,0
+332,Create an Infographic: 5 Checks Before Connecting Your Crypto Wallet,0,AWARDED,research_verify,80,0.0041,1,,1,1,3,1,0
+333,Create a Visual Guide: What Happens When You Send Crypto?,0,AWARDED,writing,80,0.0041,1,,1,1,3,1,0
+334,First-hand case study: I completed a Verdikta bounty - what it cost and what happened,0,AWARDED,research_verify,85,0.005,2,5,1,1,7,1,0
+335,Create a PDF Tutorial: How to Verify a Crypto Transaction,0,AWARDED,research_verify,80,0.0042,1,,1,1,2,1,0
+336,Build a Simple Monthly Budget Tracker in CSV,0,AWARDED,code,80,0.0041,1,,1,1,2,1,0
+337,Analyze a Sample Dataset and Report 3 Key Findings,0,AWARDED,writing,80,0.0041,1,,1,1,2,1,0
+338,Bounty-for-Bounty #1 of 8: Create your first Verdikta bounty,0,AWARDED,b4b,75,0.00122,2,4,2,0.5,13,0,1
+339,Write a 120-word plain-English explanation of how an escrow works,0,AWARDED,writing,80,0.00045,1,1,1,1,5,1,0
+340,30 natural Swahili payment-request phrases with English translations,0,AWARDED,writing,80,0.0006,2,1,1,1,33,1,0
+341,Verdikta awareness post in Korean,0,AWARDED,social_post,90,0.005,2,5,2,0.5,775,0,1
+342,Verdikta awareness post in Turkish,0,AWARDED,social_post,90,0.005,2,5,2,0.5,256,0,1
+343,Verdikta awareness post in Japanese (日本語),0,AWARDED,social_post,90,0.005,2,5,1,1,286,1,0
+344,Verdikta awareness post in Hindi (हिन्दी),0,AWARDED,social_post,90,0.005,2,5,4,0.25,522,0,0
+345,Bounty-for-Bounty #2 of 8: Create your first Verdikta bounty,0,AWARDED,b4b,75,0.00122,2,4,1,1,14,1,0
+346,EIP-7702 delegation: three attack scenarios and their mitigations,0,AWARDED,research_verify,80,0.0004,2,,1,1,3,1,0
+347,Bounty-for-Bounty #3 of 8: Create your first Verdikta bounty,0,AWARDED,b4b,75,0.00122,2,4,2,0.5,440,0,1
+348,Sourced fact check: five claims about Verdikta platform rules,0,AWARDED,research_verify,80,0.00045,2,3,2,0.5,3,1,1
+349,Guide: read a poidh issuer's payout record before you claim (500-900 words),0,AWARDED,writing,80,0.00045,2,3,1,1,83,1,0
+350,Bounty-for-Bounty #4 of 8: Create your first Verdikta bounty,0,AWARDED,b4b,75,0.00122,2,4,3,0.33,3280,0,1
+351,Detecting wash-award collusion in on-chain bounty markets: a 900-1200 word technical brief,0,AWARDED,other,80,0.0005,2,,1,1,4,1,0
+352,Postingan tentang Verdikta dalam Bahasa Indonesia,0,AWARDED,social_post,90,0.005,2,5,1,1,83,1,0
+353,Publicación en español sobre qué es Verdikta y cómo funciona,0,CLOSED,social_post,94,0.005,2,6,2,0,,,0
+354,Argumento en español: por qué la resolución de disputas on-chain importa para la economía de agentes,0,CLOSED,social_post,94,0.005,2,6,3,0,,,0
+355,First-Hand Test Wanted: An AI Agent Pays via L402 / Wavelength (Bitcoin Lightning) — Milestone 1 of 3,0,AWARDED,research_verify,85,0.0025,2,4,3,0.33,39,0,2
+356,Publication en français sur ce qu'est Verdikta et comment ça fonctionne,0,CLOSED,social_post,92,0.005,2,6,4,0,,,2
+357,Argument en français : pourquoi la résolution de litiges on-chain change la donne pour l'économie des agents,0,CLOSED,social_post,92,0.005,2,6,2,0,,,0
+358,Tweet-length Verdikta pitch: explain escrow + AI jury in under 280 characters,0,AWARDED,social_post,89,0.001,2,3,2,0.5,1057,0,1
+359,Verdikta case study: write and publish a real forum thread comparing it to traditional freelance dispute resolution,0,AWARDED,research_verify,89,0.001,2,3,3,0.33,5195,0,2
+360,LinkedIn post: Verdikta from the perspective of a hiring manager who has been burned by freelancer disputes,0,OPEN,social_post,89,0.001,2,3,2,0,,,2
+361,Reddit AMA-style post: answer 5 hard questions about Verdikta as if you built it,0,ORPHANED,trivia_qa,89,0.001,2,3,0,,,,0
+362,Explainer thread on any platform: Verdikta told as a 3-act story,0,ORPHANED,writing,89,0.001,2,3,0,,,,0
+363,Undercover integration: mention Verdikta naturally inside a broader post about AI agent infrastructure,0,ORPHANED,social_post,89,0.001,2,3,0,,,,0
+364,Video script + summary post: write a 60-second explainer script and post the summary on social media,0,ORPHANED,code,89,0.001,2,3,0,,,,0
+365,"Devil's advocate post: write a thoughtful critique of Verdikta, then post it and defend it",0,ORPHANED,writing,89,0.001,2,3,0,,,,0
+366,Community introduction: post about Verdikta in an existing online community you are already a member of,0,ORPHANED,social_post,89,0.001,2,3,0,,,,0
+367,Cross-platform campaign: one coherent Verdikta story told in three different formats across three platforms,0,OPEN,writing,89,0.001,2,1,2,0,,,2
+368,Guide: verify ERC-20 transfer taxes and sell restrictions on Base before swapping (500-900 words),0,AWARDED,research_verify,80,0.00043,2,1,1,1,3,1,0
+369,Bounty-for-Bounty #5 of 8: Create your first Verdikta bounty,0,AWARDED,b4b,75,0.00122,2,4,1,1,120,1,0
+370,Write 10 Spanish FAQ entries for a gym-management SaaS (text deliverable),0,AWARDED,writing,75,0.0005,1,4,1,1,4,1,0
+371,Bounty-for-Bounty #6 of 8: Create your first Verdikta bounty,0,AWARDED,b4b,75,0.00122,2,4,2,0.5,91,0,0
+372,Write a 600-900 word explainer: how AI-agent bounties work (case study: Verdikta),0,CLOSED,research_verify,75,0.00022,2,2,2,0,,,1
+373,Write a 600-900 word explainer: how AI-agent bounties work (case study: Verdikta),0,CLOSED,research_verify,75,0.0005,2,2,9,0,,,7
+374,Bounty-for-Bounty #7 of 8: Create your first Verdikta bounty,0,AWARDED,b4b,75,0.00122,2,4,1,1,278,1,0
+375,Checklist: audit ERC-4626 vault share-inflation and rounding risks on Base (500-900 words),0,AWARDED,research_verify,80,0.00043,2,1,1,1,3,1,0
+376,Bounty-for-Bounty #8 of 8: Create your first Verdikta bounty (FINAL),0,AWARDED,b4b,75,0.00122,2,4,1,1,26,1,0
+377,Guide: verify Chainlink price feed staleness and L2 sequencer uptime on Base (500-900 words),0,AWARDED,research_verify,80,0.00043,2,1,1,1,2,1,0
+378,Sourced explainer: rubric vs freelance dispute,0,AWARDED,writing,80,0.0041,2,2,1,1,3,1,0
+379,Answer the AI water-and-energy question where it is actually being argued,0,AWARDED,social_post,80,0.004,3,2,2,0.5,33,0,0
+380,Write a short story where an AI jury decides something unexpected,0,AWARDED,writing,82,0.002,2,1,1,1,6,1,0
+381,Design a bounty that would stump an AI jury — then explain why,0,AWARDED,writing,82,0.002,2,1,1,1,12,1,0
+382,Jury Link Test 1: Verify a Moltbook post URL,0,AWARDED,social_post,75,0.001,2,1,1,1,3,1,0
+383,Jury Link Test 2: Verify a Verdikta bounty page,0,AWARDED,research_verify,75,0.001,2,1,3,0.67,3,0,0
+384,Jury Link Test 3: Verify content at an IPFS gateway,0,AWARDED,research_verify,75,0.001,2,1,2,0.5,5,0,0
+385,"First-hand field report: use Verdikta for real, then publish your measured numbers",0,AWARDED,writing,85,0.004,3,2,1,1,14,1,0
+386,Perfect Cuboid: prove or disprove existence,0,OPEN,math_open_problem,95,0.032,2,1,0,,,,0
+387,"Ramsey number R(5,5): prove a tight bound",0,OPEN,math_open_problem,95,0.032,2,1,1,0,,,0
+388,Post a head-to-head software comparison using a Verdikta-style rubric,0,AWARDED,research_verify,82,0.003,2,1,3,0.33,24,0,2
+389,Grade a popular open-source project's documentation and post your verdict,0,AWARDED,code,82,0.003,2,1,2,0.5,13,0,1
+390,The verification gap: why a shipped kernel patch still waits (CVE-2026-98432),0,AWARDED,writing,90,0.0025,2,6,2,0.5,300,0,0
+391,Blog post: how x402 payments settle on Base,1,AWARDED,writing,82,0.0041,2,2,2,1,1,1,0
