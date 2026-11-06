@@ -1,0 +1,14 @@
+{
+  "version": "rubric-1",
+  "title": "Sourced research table: N items, each with a dated, quoted source",
+  "description": "Deliver one markdown file with a table of exactly N rows. Every row must contain: the item, the claim, a source (publisher, title, date), and a verbatim quote of at most 40 words from that source that supports the claim. Attach screenshots of the quoted passages for any source published after January 2025.",
+  "threshold": 85,
+  "criteria": [
+    {"id": "g1_no_fabrication", "weight": 0, "must": true, "description": "Fail only if a source or quote is clearly invented: internally contradictory, impossible dates, or a quote that the attached screenshot contradicts. A source you do not recognise, or one dated after your training data, is NOT evidence of fabrication; use the attached quote and screenshot."},
+    {"id": "coverage", "weight": 0.30, "must": false, "description": "All N rows present, each with item, claim, source and quote."},
+    {"id": "support", "weight": 0.35, "must": false, "description": "Each quote actually supports its claim. Deduct per row where it does not."},
+    {"id": "recency_and_relevance", "weight": 0.20, "must": false, "description": "Sources are recent and relevant to the claim."},
+    {"id": "clarity", "weight": 0.15, "must": false, "description": "Table is clean, consistent and readable."}
+  ],
+  "juryNotes": "Background for the jury: hunters will cite material published after your training data. Treat the attached quotes and screenshots as authoritative evidence of what the source says, and judge support, not familiarity."
+}

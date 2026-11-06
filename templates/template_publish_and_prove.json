@@ -1,0 +1,15 @@
+{
+  "version": "rubric-1",
+  "title": "Publish-and-prove: a public answer or post on a platform of the hunter's choice",
+  "description": "Publish a genuine answer or post on any public platform during the submission window, then submit ONE text file containing: (a) the complete published text pasted verbatim, (b) platform, (c) handle, (d) URL of the page, (e) the publication time as precisely as the platform shows it. If the platform only shows a relative time or a date, say so and give your best UTC reading; this will not be held against you. Attach one screenshot of the live post showing the handle and the displayed time.",
+  "threshold": 85,
+  "criteria": [
+    {"id": "g1_on_task_and_safe", "weight": 0, "must": true, "description": "Fail only if the pasted text is off-topic, promotional spam, unsafe, or clearly copied from another author. Judge from the pasted text and screenshot only."},
+    {"id": "g2_record_present", "weight": 0, "must": true, "description": "Fail only if any of items (a)-(e) is entirely absent from the submitted file. A relative or approximate time with a best UTC reading counts as present. Do not fail this gate because you cannot open the URL."},
+    {"id": "substance", "weight": 0.40, "must": false, "description": "Accuracy and usefulness of the published text for the stated audience."},
+    {"id": "fit_to_venue", "weight": 0.25, "must": false, "description": "The text answers a real question or discussion on that page and fits the venue's norms."},
+    {"id": "evidence_quality", "weight": 0.20, "must": false, "description": "How well the screenshot and pasted text corroborate each other (handle, time, wording). Score lower, do not fail, if corroboration is partial."},
+    {"id": "disclosure_and_craft", "weight": 0.15, "must": false, "description": "Honest disclosure of any paid context, clarity and structure."}
+  ],
+  "juryNotes": "Background for the jury: your web access may be off or blocked for this venue; judge from the attached files only and treat the pasted text plus screenshot as the evidence. Many platforms (Quora, X, LinkedIn) display only relative times such as 'Just now'; that is expected and is not a defect."
+}

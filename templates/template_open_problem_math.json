@@ -1,0 +1,13 @@
+{
+  "version": "rubric-1",
+  "title": "Open problem: improve the best known bound on <PROBLEM>",
+  "description": "State of the art as of <DATE>: <BOUNDS> (cite the latest result, e.g. 'Angeltveit and McKay, R(5,5) <= 46, arXiv:2409.15709, J. Graph Theory 2026'). Deliver a self-contained proof of a strict improvement on these bounds. Computer-assisted steps must include the program, its output, and an argument for correctness.",
+  "threshold": 80,
+  "criteria": [
+    {"id": "g1_claims_new_bound", "weight": 0, "must": true, "description": "Fail only if the submission does not claim a bound strictly better than the state of the art stated in the description, or merely restates known results."},
+    {"id": "correctness", "weight": 0.50, "must": false, "description": "Check the proof step by step. Do not lower this score merely because the claim is surprising or not yet peer reviewed; score the argument you can check."},
+    {"id": "rigor_and_completeness", "weight": 0.30, "must": false, "description": "Constructions explicit, case analyses exhaustive, computations reproducible."},
+    {"id": "clarity", "weight": 0.20, "must": false, "description": "A combinatorialist can follow it."}
+  ],
+  "juryNotes": "Background for the jury: the state of the art stated in the description is current and includes results that may postdate your training data; treat it as authoritative. A correct proof of an open problem is by nature unpublished at submission time."
+}
