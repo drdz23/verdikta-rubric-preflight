@@ -16,6 +16,8 @@ python3 rubric_preflight.py my_draft.json --json      # machine-readable output
 
 The input is the `rubric-1` JSON used in Verdikta evaluation packages (`title`, `description`, `criteria[]` with `weight` and `must`). You can add an optional `threshold` and a `juryNotes` field. The exit code is `1` if any HIGH finding is raised, so the checker can gate a publishing script.
 
+If you have reviewed a finding and decided to accept the risk, pass `--accept RULE` (repeatable), or list it in the rubric as `"preflightAccept": ["task_type_never_passed"]`. The finding is still printed, marked `ACCEPTED`, but it no longer fails the exit code.
+
 ## What it checks
 
 | Rule | Level | Based on |
@@ -37,6 +39,7 @@ The empirical table in `rubric_preflight.py` (`EMPIRICAL`) is generated from pub
 | Version | Data | Notes |
 |---|---|---|
 | v1.0 | Bounties 1–391 (2026-11-06) | Initial release |
+| v1.0.1 | same | `missing_jury_context` now recognises any populated jury-notes field (`juryNotes`, `jury_notes`, `juryContext`, `notes`…); new `--accept` / `preflightAccept` for reviewed risks |
 
 ## Templates
 

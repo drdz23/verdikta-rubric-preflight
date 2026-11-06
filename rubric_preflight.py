@@ -249,11 +249,26 @@ def finding(level, rule, message, evidence):
     return {"level": level, "rule": rule, "message": message, "evidence": evidence}
 
 
-def check(rubric, threshold=None, jurors=2):
+NOTE_KEYS = ("juryNotes", "jury_notes", "juryNote", "jury_note", "juryContext", "jury_context", "notes", "backgroundForJury")
+
+
+def jury_notes_of(rubric):
+    # accept the common spellings, and strings or lists of strings
+    parts = []
+    for k in NOTE_KEYS:
+        v = rubric.get(k)
+        if isinstance(v, list):
+            parts.extend(str(x) for x in v)
+        elif v:
+            parts.append(str(v))
+    return "\n".join(parts)
+
+
+def check(rubric, threshold=None, jurors=2, accept=()):
     out = []
     title = str(rubric.get("title", ""))
     desc = str(rubric.get("description", ""))
-    notes = str(rubric.get("juryNotes", "") or rubric.get("jury_notes", ""))
+    notes = jury_notes_of(rubric)
     criteria = rubric.get("criteria") or []
     full = "\n".join([title, desc, notes] + [str(c.get("description", "")) for c in criteria]).lower()
     if threshold is None:
@@ -328,11 +343,19 @@ def check(rubric, threshold=None, jurors=2):
         needs_ctx.append("venues the jurors cannot open")
     if task == "math_open_problem":
         needs_ctx.append("open-problem claims, where jurors apply a strong 'extraordinary claim' prior")
-    if needs_ctx and not re.search(JURY_NOTE_WORDS, full):
+    has_note = len(notes.strip()) >= 40 or re.search(JURY_NOTE_WORDS, full)
+    if needs_ctx and not has_note:
         out.append(finding("MEDIUM", "missing_jury_context",
                            "The task depends on " + "; ".join(needs_ctx) + ", and the rubric gives the jury no background note.",
                            "In 408 public justifications, 8 rejected submissions cite sources the jury called fabricated/future-dated (#151, #387) and 17 mention a venue the jury could not open (e.g. #354 LinkedIn). "
                            "Add a jury note with the current state of the art, and tell jurors to treat attached sources as authoritative."))
+
+    # Risks the author has reviewed and accepted: from --accept and/or rubric["preflightAccept"].
+    accepted = set(accept) | set(rubric.get("preflightAccept") or [])
+    for f_ in out:
+        if f_["rule"] in accepted and f_["level"] != "INFO":
+            f_["accepted_from"] = f_["level"]
+            f_["level"] = "ACCEPTED"
 
     return {"task_type": task, "threshold": threshold, "gates": len(gates), "findings": out}
 
@@ -343,6 +366,9 @@ def main():
     ap.add_argument("--threshold", type=float, default=None, help="acceptance threshold (overrides rubric.threshold)")
     ap.add_argument("--jurors", type=int, default=2, help="number of equally weighted jurors (default 2)")
     ap.add_argument("--json", action="store_true", help="print machine-readable JSON")
+    ap.add_argument("--accept", action="append", default=[], metavar="RULE",
+                    help="mark a reviewed risk as accepted (repeatable); it is still printed but no longer fails the exit code. "
+                         "Same effect as listing it in rubric['preflightAccept'].")
     a = ap.parse_args()
     try:
         with open(a.rubric, encoding="utf-8") as f:
@@ -350,7 +376,7 @@ def main():
     except Exception as e:
         print(f"error: cannot read rubric: {e}", file=sys.stderr)
         sys.exit(2)
-    res = check(rubric, a.threshold, a.jurors)
+    res = check(rubric, a.threshold, a.jurors, a.accept)
     if a.json:
         print(json.dumps(res, indent=2))
     else:
@@ -358,7 +384,8 @@ def main():
         if not res["findings"]:
             print("No risky patterns found.")
         for f_ in res["findings"]:
-            print(f"\n[{f_['level']}] {f_['rule']}: {f_['message']}\n    evidence: {f_['evidence']}")
+            lvl = f_["level"] + (f" (was {f_['accepted_from']})" if f_.get("accepted_from") else "")
+            print(f"\n[{lvl}] {f_['rule']}: {f_['message']}\n    evidence: {f_['evidence']}")
     sys.exit(1 if any(f_["level"] == "HIGH" for f_ in res["findings"]) else 0)
 
 
