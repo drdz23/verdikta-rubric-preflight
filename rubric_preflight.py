@@ -281,6 +281,15 @@ def check(rubric, threshold=None, jurors=2, accept=()):
         out.append(finding("HIGH", "weights_sum", f"Scored criteria weights sum to {sum(weights):.3f}, not 1.0.",
                            "Verdikta requires weights to sum to 1.0 (+-0.001); packages that don't are rejected or mis-scored."))
     gates = [c for c in criteria if c.get("must")]
+    bare = [str(c.get("id", "?")) for c in criteria if len(str(c.get("description", "") or "").strip()) < 15]
+    if bare:
+        out.append(finding("HIGH", "criteria_without_description",
+                           f"Criteria with no (or almost no) description: {', '.join(bare)}. The jury scores only what the description says.",
+                           "Every other check here reads the descriptions, so an empty one passes silently while giving the jury no definition of pass/fail, bands or exclusions."))
+    if len(desc.strip()) < 40:
+        out.append(finding("MEDIUM", "task_description_missing",
+                           "The rubric has no task description (or a very short one).",
+                           "Jurors judge the deliverable against the description; without it, gate wording carries all the interpretation."))
 
     # 1. Threshold above empirical ceiling for this task type
     if threshold is None:

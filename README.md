@@ -31,6 +31,8 @@ If you have reviewed a finding and decided to accept the risk, pass `--accept RU
 | `relative_timestamp` | HIGH / MEDIUM | Platforms that show only "Just now" (e.g. #379: 57%, failed on the record gate alone). |
 | `missing_jury_context` | MEDIUM | Post-cutoff sources called "fabricated" (#151, #387), and venues the jury cannot open. |
 | `weights_sum` | HIGH | Scored weights must sum to 1.0. |
+| `criteria_without_description` | HIGH | A criterion with no description gives the jury nothing to score against, and silently passes every other check. |
+| `task_description_missing` | MEDIUM | No task description for the jury to judge the deliverable against. |
 
 ## Data and versioning
 
@@ -40,6 +42,7 @@ The empirical table in `rubric_preflight.py` (`EMPIRICAL`) is generated from pub
 |---|---|---|
 | v1.0 | Bounties 1–391 (2026-11-06) | Initial release |
 | v1.0.1 | same | `missing_jury_context` now recognises any populated jury-notes field (`juryNotes`, `jury_notes`, `juryContext`, `notes`…); new `--accept` / `preflightAccept` for reviewed risks |
+| v1.0.2 | same | New checks: `criteria_without_description` (HIGH), `task_description_missing` (MEDIUM) |
 
 ## Dataset
 
